@@ -12,6 +12,7 @@
 * [Sign already generated APK file with private Key](use/sign-already-generated-apk-file-with-private-key.md)
 * [Debug/Run Saral App from Android Studio](use/debug-run-saral-app-from-android-studio.md)
 * [Saral App Debug Tips](use/saral-app-debug-tips.md)
+* [Saral App usage guidelines](use/saral-app-usage-guidelines.md)
 
 ## Configurable Features
 
