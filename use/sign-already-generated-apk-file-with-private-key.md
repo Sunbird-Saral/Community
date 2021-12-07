@@ -1,6 +1,10 @@
+---
+description: Sign existing APK file with keystore
+---
+
 # Sign already generated APK file with private Key
 
-Execute below command from terminal:
+Execute then below command from a terminal:
 
 **`$ANDROID_HOME`**`/build-tools/{build-tool-version}/apksigner sign --ks <keystore.jks> --out <saral-release-signed.apk> <saral-app-unsigned-aligned.apk>`
 

@@ -7,6 +7,8 @@ description: Steps how to generate APK from source code
 ### Source Code references
 
 > > Open Terminal and clone source code `git clone https://github.com/Sunbird-Saral/Project-Saral.git`
+> >
+> > `Refer`[source-code-repository.md](../source-code/source-code-repository.md "mention")for latest repository link.
 
 > > Change Directory to `Project-Saral/` folder and switch to release tag as per release notes. `git checkout tags/<tag_name>`
 
@@ -37,7 +39,7 @@ MYAPP_RELEASE_KEY_PASSWORD=tarento@mis
 
 > > **`%FRONTEND_FOLDER%`**`/SaralApp/android/app/build.gradle`
 
-Note: Make sure `signingConfig signingConfigs.release` line is uncommented.
+Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
 
 ```
     signingConfigs {
@@ -74,8 +76,8 @@ Note: Make sure `signingConfig signingConfigs.release` line is uncommented.
     }
 ```
 
-1. Update `google-services.json` file in `%FRONTEND_FOLDER%/SaralApp/android/app` folder.
-2. Open Terminal in `%FRONTEND_FOLDER%/SaralApp/android` folder
+1. Update `google-services.json` file in **`%FRONTEND_FOLDER%`**`/SaralApp/android/app` folder.
+2. Open Terminal in **`%FRONTEND_FOLDER%`**`/SaralApp/android` folder
 
 > > `./gradlew assembleRelease`
 
@@ -83,7 +85,7 @@ Note: Make sure `signingConfig signingConfigs.release` line is uncommented.
 
 > > `./gradlew assembleDebug`
 
-1. You can find release apk file in `Project-Saral/v1.0/frontend/SaralApp/android/app/build/outputs/apk/release` folder.
+1. You can find the release apk file in `Project-Saral/v1.0/frontend/SaralApp/android/app/build/outputs/apk/release` folder.
 
 **Note:** If releasing APK file for a client/implementation, recommended creating a sub-branch(say v1.0.0-beta.1-up-apk) from release tag and modify implementation-specific Base URL.
 

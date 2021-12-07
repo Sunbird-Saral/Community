@@ -1,10 +1,14 @@
+---
+description: Run or Debug Saral App
+---
+
 # Debug/Run Saral App from Android Studio
-
-
 
 ### Source Code references
 
 > > Open Terminal and clone source code `git clone https://github.com/Sunbird-Saral/Project-Saral.git`
+> >
+> > For latest repository details , refer: [source-code-repository.md](../source-code/source-code-repository.md "mention")
 
 > > Change Directory to `Project-Saral/` folder and switch to release tag as per release notes. `git checkout tags/<tag_name>`
 
