@@ -2,11 +2,11 @@
 description: Guidelines how to use the Saral App
 ---
 
-# Saral App usage guidelines
+# Saral App Usage Guidelines
 
-1. Make sure scanning with Mobile/Tab happens in Landscape mode(shown in **Figure#1** below).![](../.gitbook/assets/image.png)  (**Figure#1**)
+1. Make sure scanning with Mobile/Tab happens in Landscape mode(shown in **Figure#1** below).  ![](../.gitbook/assets/landscape\_mode1.jpeg)(**Figure#1**)
 
-2\. Printed layouts have 4 dark circles on the corner of the sheets(shown in **Figure#2**). Make sure these are printed with proper quality printer. Avoid xerox copy of these layouts.
+2\. Printed layouts have 4 dark circles on the corner of the sheets(shown in **Figure#2**). Make sure these are printed with a proper quality printer. Avoid xerox copies of these layouts.
 
 ![](../.gitbook/assets/layout\_screenshot.jpg)(**Figure#2**)
 
