@@ -11,7 +11,7 @@ description: Developer Environment Setup - Playbook
 * Android Studio [https://developer.android.com/](https://developer.android.com)
 * Vysor [https://www.vysor.io/download](https://www.vysor.io/download)
 * NDK old Version **20.0.5594570** needed to be compatible. Use command `sdkmanager 'ndk;20.0.5594570'` to switch to ndk **20.0.5594570**. (This command is handy on Mac or Linux)
-* Saral SDK (This SDK is embedded in Saral App code base). Refer below documentation. [saral-sdk-source-code-repository.md](../source-code/saral-sdk-source-code-repository.md "mention")
+* Saral SDK (This SDK is embedded in Saral App code base). Refer below documentation. [saral-sdk-source-code-repository.md](../engage/saral-sdk-source-code-repository.md "mention")
 
 ### Optional software
 
@@ -27,7 +27,7 @@ description: Developer Environment Setup - Playbook
 
 > > Open Terminal and clone source code `git clone https://github.com/Sunbird-Saral/Project-Saral.git.`
 > >
-> > `For latest repo refer` [source-code-repository.md](../source-code/source-code-repository.md "mention")
+> > `For latest repo refer` [source-code-repository.md](../engage/source-code-repository.md "mention")
 
 > > Change Directory to `Project-Saral/` folder and switch to release tag as per release notes. `git checkout tags/<tag_name>`
 

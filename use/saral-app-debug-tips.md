@@ -6,7 +6,7 @@ description: Saral App Debug Tips
 
 ## SaralSdk log tracing from Android studio
 
-In Android studio,open Logcat view at the bottom while running android application. Use "SrlSdk" as a filter in Logcat view to monitor Saral SDK logs. This is easy way to monitor whats happening within [SaralSDK](../source-code/saral-sdk-source-code-repository.md) code.
+In Android studio,open Logcat view at the bottom while running android application. Use "SrlSdk" as a filter in Logcat view to monitor Saral SDK logs. This is easy way to monitor whats happening within [SaralSDK](../engage/saral-sdk-source-code-repository.md) code.
 
 ## Debug React Native Layer
 
@@ -14,7 +14,7 @@ In Android studio,open Logcat view at the bottom while running android applicati
 
 `npm install --global react-native-cli`
 
-&#x20;2\. Run the below command from the frontend folder
+2\. Run the below command from the frontend folder
 
 `react-native run-android`
 

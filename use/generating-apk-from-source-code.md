@@ -8,7 +8,7 @@ description: Steps how to generate APK from source code
 
 > > Open Terminal and clone source code `git clone https://github.com/Sunbird-Saral/Project-Saral.git`
 > >
-> > `Refer`[source-code-repository.md](../source-code/source-code-repository.md "mention")for latest repository location.
+> > `Refer`[source-code-repository.md](../engage/source-code-repository.md "mention")for latest repository location.
 
 > > Change Directory to `Project-Saral/` folder and switch to release tag as per release notes. `git checkout tags/<tag_name>`
 
