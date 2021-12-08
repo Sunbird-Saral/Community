@@ -11,4 +11,4 @@ Checkout Github release tag and refer `Project-Saral/specs/v1/saral-physical-lay
 1. Cell in the overall layout groups a field as a whole. It is a group of ROI's which will be predicted and grouped together.
 2. ROI(Region Of Interest) is an area of interest in the image that will be used to predict/recognize a character/digit/OMR.
 
-`Refer` [source-code-repository.md](../../engage/source-code-repository.md "mention")\`\`
+`Refer` [source-code-repository.md](../../engage/source-code-repository.md "mention")
