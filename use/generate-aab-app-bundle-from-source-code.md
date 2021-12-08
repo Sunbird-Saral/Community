@@ -1,8 +1,8 @@
 ---
-description: Steps how to generate APK from source code
+description: Steps how to generate ABB from source code
 ---
 
-# Generating APK from source code
+# Generate AAB(App bundle) from source code
 
 ### Source Code references
 
@@ -79,16 +79,16 @@ Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
 1. Update `google-services.json` file in **`%FRONTEND_FOLDER%`**`/SaralApp/android/app` folder.
 2. Open Terminal in **`%FRONTEND_FOLDER%`**`/SaralApp/android` folder
 
-> > `./gradlew assembleRelease`
+> > `./gradlew bundleRelease`
 
 (OR)
 
-> > `./gradlew assembleDebug`
+> > `./gradlew bundleDebug`
 
-1. You can find the release apk file in `Project-Saral/v1.0/frontend/SaralApp/android/app/build/outputs/apk/release or debug` folder.
+1. You can find the release .aab file in `Project-Saral/v1.0/frontend/SaralApp/android/app/build/outputs/bundle/release or debug` folder.
 
-**Note:** If releasing APK file for a client/implementation, recommended creating a sub-branch(say v1.0.0-beta.1-up-apk) from release tag and modify implementation-specific Base URL.
+**Note:** If releasing AAB file for a client/implementation, recommended creating a sub-branch(say v1.0.0-beta.1-up-apk) from release tag and modify implementation-specific Base URL.
 
-1. Open terminal from **`%FRONTEND_FOLDER%`**`/SaralApp/android` folder and execute the below command to verify if apk signature.
+1. Open terminal from **`%FRONTEND_FOLDER%`**`/SaralApp/android` folder and execute the below command to verify if AAB signature.
 
-`jarsigner -verbose -verify ./app/build/outputs/apk/release/app-release.apk`
+`jarsigner -verbose -verify ./app/build/outputs/apk/release/app-release.aab`

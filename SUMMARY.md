@@ -18,6 +18,7 @@
 * [Workspace Setup - Playbook](use/workspace-setup-playbook.md)
 * [Saral App Reference Backend](use/saral-app-reference-backend.md)
 * [Generating APK from source code](use/generating-apk-from-source-code.md)
+* [Generate AAB(App bundle) from source code](use/generate-aab-app-bundle-from-source-code.md)
 * [Sign already generated APK file with private Key](use/sign-already-generated-apk-file-with-private-key.md)
 * [Layout configuration](use/layout-configuration.md)
 * [Debug/Run Saral App from Android Studio](use/debug-run-saral-app-from-android-studio.md)
