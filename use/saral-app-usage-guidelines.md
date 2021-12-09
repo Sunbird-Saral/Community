@@ -12,4 +12,4 @@ description: Guidelines how to use the Saral App
 
 3\. Make sure the user is holding the device is in a stable state until the predictions appear on the App screen.
 
-4\. For OMR sheets make sure bubbles are filled using a blue or black ball pen for proper detection.
+4\. For OMR sheets make sure bubbles are filled using a blue or black ball pen without any gaps for proper detection.
