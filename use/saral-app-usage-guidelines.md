@@ -13,3 +13,14 @@ description: Guidelines how to use the Saral App
 3\. Make sure the user is holding the device is in a stable state until the predictions appear on the App screen.
 
 4\. For OMR sheets make sure bubbles are filled using a blue or black ball pen without any gaps for proper detection.
+
+5\. Succesful scan from Saral App will have indications shown in below Figures.
+
+![](../.gitbook/assets/scan\_success\_1.jpeg)  &#x20;
+
+(**Figure#3**) Detected the layout to be processed for detection.
+
+![](<../.gitbook/assets/scan\_success\_2.jpeg (1).jpeg>)
+
+(**Figure#4**) Processing detected layout for predictions.
+
