@@ -5,7 +5,7 @@
 ## LERAN
 
 * [Software Requirement](leran/software-requirement.md)
-* [Saral App Architecture](leran/saral-app-architecture.md)
+* [Application Architecture](leran/saral-app-architecture.md)
 * [Features](leran/features/README.md)
   * [Multi-Tenant Branding](leran/features/multi-tenant-branding.md)
   * [Capture AI/ML Training Data](leran/features/capture-ai-ml-training-data.md)

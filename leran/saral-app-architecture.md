@@ -2,12 +2,14 @@
 description: Saral App end to end Architecture
 ---
 
-# Saral App Architecture
+# Application Architecture
 
-**Saral App end to end Architecture**
+**Overall Architecture**
 
 ![](<../.gitbook/assets/Saral v1.0 Architecture.png>)
 
-**Saral SDK and App Architecture**
+*
+
+**Saral SDK and Application Architecture**
 
 ![](<../.gitbook/assets/saral\_sdk\_app\_arch-Saral SDK.png>)
