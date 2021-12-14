@@ -8,6 +8,8 @@ This is the layout specification for Saral App. Layout ROIs are captured in this
 
 Checkout Github release tag and refer `Project-Saral/specs/v1/saral-physical-layout-representation-specs.yaml`
 
+![](../../.gitbook/assets/odisha\_layout\_marking.jpg)
+
 1. The **Cell** is a field-level grouping of ROIs. It is a group of ROI's which will be predicted and grouped together. For example, Student ID may have 13 ROI's(for 13 digits) and they are all grouped under one cell to represent the student ID field as a whole.&#x20;
 2. ROI(Region Of Interest) is an area of interest in the image that will be used as input to predict/recognize a character/digit/OMR.
 
