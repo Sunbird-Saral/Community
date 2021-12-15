@@ -34,3 +34,4 @@
   * [v1.0.0-beta.1](engage/releases/v1.0.0-beta.1.md)
   * [v1.0.0-beta.2](engage/releases/v1.0.0-beta.2.md)
   * [v1.0.0-beta.3](engage/releases/v1.0.0-beta.3.md)
+  * [v1.0.0-beta.4](engage/releases/v1.0.0-beta.4.md)
