@@ -16,7 +16,7 @@ description: Application Architecture of Saral App
 
 **Saral SDK and Application Architecture**
 
-![](<../.gitbook/assets/saral\_sdk\_app\_arch-Saral SDK.png>)
+![](<../.gitbook/assets/saral\_v1.0\_architecture2-Saral SDKnew.jpg>)
 
 * [ ] ****[**Saral SDK**](../engage/saral-sdk-source-code-repository.md) is an Android and React Native Software Development kit with core logic to predict  handwritten digits and OMR bubbles.
 * [ ] ****[**Saral SDK**](../engage/saral-sdk-source-code-repository.md) accepts layout JSON as input and enriches the JSON with predictions and sends back the response. Refer [layout-specification.md](specifications/layout-specification.md "mention")
