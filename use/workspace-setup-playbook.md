@@ -6,10 +6,10 @@ description: Developer Environment Setup - Playbook
 
 ## Software Prerequisites
 
-* React Native [https://reactnative.dev/](https://reactnative.dev)
+* [React Native Setup](https://reactnative.dev)
 * NodeJs, NPM , OpenJDK 8
-* Android Studio [https://developer.android.com/](https://developer.android.com)
-* Vysor [https://www.vysor.io/download](https://www.vysor.io/download)
+* [Android Studio Dowload](https://developer.android.com/studio)
+* [Vysor](https://www.vysor.io/download)
 * NDK old Version **20.0.5594570** needed to be compatible. Use command `sdkmanager 'ndk;20.0.5594570'` to switch to ndk **20.0.5594570**. (This command is handy on Mac or Linux)
 * Saral SDK (This SDK is embedded in Saral App code base).                                                           Refer  [saral-sdk-source-code-repository.md](../engage/saral-sdk-source-code-repository.md "mention")
 
@@ -19,8 +19,8 @@ description: Developer Environment Setup - Playbook
 
 ## Other tools used
 
-* Microsoft VoTT(Visual Object Tagging Tool) [https://github.com/microsoft/VoTT](https://github.com/microsoft/VoTT) VoTT Project Setup Video: [https://www.youtube.com/watch?v=uXxE4Sas3uQ](https://www.youtube.com/watch?v=uXxE4Sas3uQ)
-* Jupyter Notebook for transforming VoTT raw json to Saral ROI json. Refer to source repository path **specs\v1\README.md** file for more details. [https://jupyter.org/](https://jupyter.org)
+* [Microsoft VoTT(Visual Object Tagging Tool)](https://github.com/microsoft/VoTT)  [VoTT Project Setup Video](https://www.youtube.com/watch?v=uXxE4Sas3uQ)
+* [Jupyter Notebook](https://jupyter.org) for transforming VoTT raw json to Saral ROI json. Refer to source repository path **specs\v1\README.md** file for more details. You may consider installing the extension in MS Visual Studio Code.
 * PostMan or any other REST client tool to invoke/test Rest APIs.
 
 ### Source Code references
@@ -37,11 +37,11 @@ description: Developer Environment Setup - Playbook
 
 ## Frontend Setup
 
-* Install React Native and other software as per instructions @ [https://reactnative.dev/docs/environment-setup](https://reactnative.dev/docs/environment-setup)
+* [Setting up the React Native development environment](https://reactnative.dev/docs/environment-setup)
 * Download **NDK 20.0.5594570** and extract archive to **%ANDROID\_HOME%**\ndk folder. Source: https://androidsdkoffline.blogspot.com/p/android-ndk-side-by-side-direct-download.html
 * In Android Studio, navigate to File\Project Structure\SDK Location and set Android NDK location to **%ANDROID\_HOME%**\ndk\android-ndk-r20 (extracted in the last step).
 * Register on google firebase (https://firebase.google.com/), add the Saral project on firebase dashboard and download the corresponding **google-services.json**.
-* Place downloaded `google-services.json` under %FRONTEND\_FOLDER%/SaralApp/android/app folder.
+* Place downloaded `google-services.json` under **%FRONTEND\_FOLDER%**/SaralApp/android/app folder.
 * Once Vysor and AVD are configured as per the instructions, follow the below steps to bring up the application.
 * Open a terminal in **%FRONTEND\_FOLDER%/SaralApp** and run "npm i" command.
 * cd android && gradlew clean && cd..
