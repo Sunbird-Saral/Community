@@ -85,10 +85,10 @@ Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
 
 > > `./gradlew assembleDebug`
 
-1. You can find the release apk file in `Project-Saral/v1.0/frontend/SaralApp/android/app/build/outputs/apk/release or debug` folder.
+3\. You can find the release apk file in `Project-Saral/v1.0/frontend/SaralApp/android/app/build/outputs/apk/release or debug` folder.
 
-**Note:** If releasing APK file for a client/implementation, recommended creating a sub-branch(say v1.0.0-beta.1-up-apk) from release tag and modify implementation-specific Base URL.
+**Note:** If releasing APK file for a client/implementation, its recommended to build APK from the release tag and modify implementation-specific BASE\_URL entry and `google-services.json` file.
 
-1. Open terminal from **`%FRONTEND_FOLDER%`**`/SaralApp/android` folder and execute the below command to verify if apk signature.
+1. Open terminal from **`%FRONTEND_FOLDER%`**`/SaralApp/android` folder and execute the below command to verify apk signature.
 
 `jarsigner -verbose -verify ./app/build/outputs/apk/release/app-release.apk`
