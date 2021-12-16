@@ -41,18 +41,18 @@ description: Developer Environment Setup - Playbook
 * Download [**NDK 20.0.5594570**](https://androidsdkoffline.blogspot.com/p/android-ndk-side-by-side-direct-download.html) and extract archive to **%ANDROID\_HOME%**\ndk folder.
 * In Android Studio, navigate to `File\Project Structure\SDK Location` and set Android NDK location to **%ANDROID\_HOME%**\ndk\android-ndk-r20 (extracted in the last step).
 * Register on [Google Firebase](https://firebase.google.com), add the Saral project on the firebase dashboard and download the corresponding **google-services.json**.
-* Place downloaded `google-services.json` under **%FRONTEND\_FOLDER%**/SaralApp/android/app folder.
+* Place downloaded `google-services.json` under [**%FRONTEND\_FOLDER%**](workspace-setup-playbook.md#source-code-references)/SaralApp/android/app folder.
 * Once Vysor and AVD are configured as per the instructions, follow the below steps to bring up the application.
-* Open a terminal in **%FRONTEND\_FOLDER%/SaralApp** and run "npm i" command.
+* Open a terminal in [**%FRONTEND\_FOLDER%**](workspace-setup-playbook.md#source-code-references)**/SaralApp** and run "npm i" command.
 * cd android && gradlew clean && cd..
 * npx react-native run-android
-* Make sure backend **BASE\_URL** is configured in **%FRONTEND\_FOLDER%/SaralApp/src/configs/config.js** file.
+* Make sure backend **BASE\_URL** is configured in [**%FRONTEND\_FOLDER%**](workspace-setup-playbook.md#source-code-references)**/SaralApp/src/configs/config.js** file.
 * Successful frontend deployment should show Saral OCR login screen on AVD.
 
 ## Backend Setup
 
 * Install node and MongoDB in your local machine.
-* After taking pull of project from git, Install npm packages by running `npm i` from **%BACKEND\_FOLDER%**.
+* After taking pull of project from git, Install npm packages by running `npm i` from [**%BACKEND\_FOLDER%**](workspace-setup-playbook.md#source-code-references).
 * Create a subfolder inside backend folder name it as configuration.
 * Now create a file in **config\dev.env** and paste below commands
 
@@ -67,13 +67,13 @@ description: Developer Environment Setup - Playbook
 
 ## Backend DevOps
 
-Dockerfile is available under **%BACKEND\_FOLDER%** folder.
+Dockerfile is available under [**%BACKEND\_FOLDER%**](workspace-setup-playbook.md#source-code-references) folder.
 
-Build docker image using `docker build . -t saral-backend:1.0-latest the` command from **%BACKEND\_FOLDER%** folder in a Terminal.
+Build docker image using `docker build . -t saral-backend:1.0-latest the` command from [**%BACKEND\_FOLDER%**](workspace-setup-playbook.md#source-code-references) folder in a Terminal.
 
-Docker swarm stack reference file available at **%BACKEND\_FOLDER%**/saralbackend-stack.yml
+Docker swarm stack reference file available at [**%BACKEND\_FOLDER%**](workspace-setup-playbook.md#source-code-references)/saralbackend-stack.yml
 
-Docker-compose reference file available at **%BACKEND\_FOLDER%**/docker-compose.yml
+Docker-compose reference file available at [**%BACKEND\_FOLDER%**](workspace-setup-playbook.md#source-code-references)/docker-compose.yml
 
 ## Backend Data Load
 
