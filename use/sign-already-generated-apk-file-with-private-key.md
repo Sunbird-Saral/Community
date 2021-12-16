@@ -16,6 +16,6 @@ OR
 
 Example:
 
-**`%ANDROID_HOME%`**`/build-tools/30.0.2/apksigner sign --ks my-release-key.jks --out saral-release-signed.apk saral-app-unsigned-aligned.apk`
+**`$ANDROID_HOME`**`/build-tools/30.0.2/apksigner sign --ks my-release-key.jks --out saral-release-signed.apk saral-app-unsigned-aligned.apk`
 
 Please enter keystore password when prompted. This will generate signed apk with the name provided in  `--out`  parameter.

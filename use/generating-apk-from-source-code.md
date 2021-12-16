@@ -12,20 +12,20 @@ description: Steps how to generate APK from source code
 
 > > Change Directory to `Project-Saral/` folder and switch to release tag as per release notes. `git checkout tags/<tag_name>`
 
-> > `%FRONTEND_FOLDER% = Project-Saral/v1.0/frontend`
+> > `$FRONTEND_FOLDER = Project-Saral/v1.0/frontend`
 
-> > `%BACKEND_FOLDER% = Project-Saral/v1.0/backend`
+> > `$BACKEND_FOLDER = Project-Saral/v1.0/backend`
 
 ### Saral v1.0 Android App bundling/packaging
 
 1. Follow Frontend Setup steps @ [workspace-setup-playbook.md](workspace-setup-playbook.md "mention")
-2. Open Terminal in [**`%FRONTEND_FOLDER%`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android` folder
+2. Open Terminal in [**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android` folder
 
 > > `./gradlew clean`
 
-1. APK Signing can be enabled using the below Gradle files. Make sure the Keystore file is to be used for signing placed in **`FRONTEND_FOLDER%`**`/SaralApp/android/app` folder.
+1. APK Signing can be enabled using the below Gradle files. Make sure the Keystore file is to be used for signing placed in [**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/app` folder.
 
-> > **``**[**`%FRONTEND_FOLDER%`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/gradle.properties`
+> > **``**[**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/gradle.properties`
 
 ```
 MYAPP_RELEASE_STORE_FILE=my-upload-key.keystore
@@ -37,7 +37,7 @@ MYAPP_RELEASE_KEY_ALIAS=hwrecog-key-alias
 MYAPP_RELEASE_KEY_PASSWORD=changeit
 ```
 
-> > **``**[**`%FRONTEND_FOLDER%`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/app/build.gradle`
+> > **``**[**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/app/build.gradle`
 
 Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
 
@@ -76,8 +76,8 @@ Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
     }
 ```
 
-1. Update `google-services.json` file in [**`%FRONTEND_FOLDER%`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/app` folder.
-2. Open Terminal in [**`%FRONTEND_FOLDER%`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android` folder
+1. Update `google-services.json` file in [**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/app` folder.
+2. Open Terminal in [**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android` folder
 
 > > `./gradlew assembleRelease`
 
@@ -87,8 +87,8 @@ Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
 
 3\. You can find the release apk file in `Project-Saral/v1.0/frontend/SaralApp/android/app/build/outputs/apk/release or debug` folder.
 
-**Note:** If releasing APK file for a client/implementation, its recommended to build APK from the release tag and modify implementation-specific BASE\_URL entry and `google-services.json` file.
+**Note:** If releasing APK file for a client/implementation, its recommended to build APK from the release tag and modify implementation-specific **BASE\_URL** entry and `google-services.json` file.
 
-1. Open terminal from [**`%FRONTEND_FOLDER%`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android` folder and execute the below command to verify apk signature.
+1. Open terminal from [**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android` folder and execute the below command to verify apk signature.
 
 `jarsigner -verbose -verify ./app/build/outputs/apk/release/app-release.apk`
