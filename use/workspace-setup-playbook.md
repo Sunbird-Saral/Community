@@ -52,9 +52,9 @@ description: Developer Environment Setup - Playbook
 ## Backend Setup
 
 * Install node and MongoDB in your local machine.
-* After taking pull of project from git, Install npm packages by running `npm i` from [$**BACKEND\_FOLDER**](workspace-setup-playbook.md#source-code-references).
-* Create a subfolder inside backend folder name it as configuration.
-* Now create a file in **config\dev.env** and paste below commands
+* After taking a pull of project from git, Install npm packages by running `npm i` from [$**BACKEND\_FOLDER**](workspace-setup-playbook.md#source-code-references).
+* Create a subfolder inside the backend folder name it as configuration.
+* Now create a file in **config\dev.env** and paste the below commands
 
 > > `PORT=3000`.
 
@@ -62,7 +62,7 @@ description: Developer Environment Setup - Playbook
 
 > > `JWT_SECRET=SARALDATA_NODE`.
 
-* npm run dev
+* Run `npm run dev` command from a terminal in [$**BACKEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)**.**
 * Successful backend local deployment should show Server is up on port 3000
 
 ## Backend DevOps
