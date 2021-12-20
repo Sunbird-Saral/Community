@@ -43,8 +43,8 @@ description: Developer Environment Setup - Playbook
 * Register on [Google Firebase](https://firebase.google.com), add the Saral project on the firebase dashboard and download the corresponding **google-services.json**.
 * Place downloaded `google-services.json` under [$**FRONTEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)/SaralApp/android/app folder.
 * Once Vysor and AVD are configured as per the instructions, follow the below steps to bring up the application.
-* Open a terminal in [$**FRONTEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)**/SaralApp** and run `npm i` command.
-* `cd android && gradlew clean && cd..`
+* Open a terminal in [$**FRONTEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)**/SaralApp** and run `npm i` the command.
+* `cd android && ./gradlew clean && cd..`
 * `npx react-native run-android`
 * Make sure backend **BASE\_URL** is configured in [$**FRONTEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)**/SaralApp/src/configs/config.js** file.
 * Successful frontend deployment should show Saral OCR login screen on AVD or USB connected Android device.
