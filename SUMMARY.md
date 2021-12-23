@@ -9,6 +9,7 @@
 * [Features](leran/features/README.md)
   * [Multi-Tenant Branding](leran/features/multi-tenant-branding.md)
   * [Capture AI/ML Training Data](leran/features/capture-ai-ml-training-data.md)
+  * [Support](leran/features/support.md)
 * [Specifications](leran/specifications/README.md)
   * [Layout specification](leran/specifications/layout-specification.md)
   * [Backend API Swagger Doc](leran/specifications/backend-api-swagger-doc.md)
