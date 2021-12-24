@@ -11,6 +11,7 @@
   * [Capture AI/ML Training Data](leran/features/capture-ai-ml-training-data.md)
   * [Support](leran/features/support.md)
   * [Share App data](leran/features/share-app-data.md)
+  * [Auto Sync](leran/features/auto-sync.md)
 * [Specifications](leran/specifications/README.md)
   * [Layout specification](leran/specifications/layout-specification.md)
   * [Backend API Swagger Doc](leran/specifications/backend-api-swagger-doc.md)
