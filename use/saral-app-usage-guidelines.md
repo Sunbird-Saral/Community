@@ -16,11 +16,10 @@ description: Guidelines how to use the Saral App
 
 5\. Succesful scan from Saral App will have indications shown in below Figures.
 
-![](../.gitbook/assets/scan\_success\_1.jpeg)  &#x20;
+![](../.gitbook/assets/scan\_success\_1.jpeg)
 
 (**Figure#3**) Detected the layout to be processed for detection.
 
 ![](<../.gitbook/assets/scan\_success\_2.jpeg (1).jpeg>)
 
-(**Figure#4**) Processing detected layout for predictions.
-
+(**Figure#4**) Processing detected layout for predictions. Make sure the "Please wait, scanning is in progress !!" message in blue colour is in the same direction as the layout. If both of them are  oriented in a different direction then its the wrong way to scan.
