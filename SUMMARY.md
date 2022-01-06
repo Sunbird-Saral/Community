@@ -38,3 +38,4 @@
   * [v1.0.0-beta.2](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.0.0-beta.2)
   * [v1.0.0-beta.3](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.0.0-beta.3)
   * [v1.0.0-beta.4](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.0.0-beta.4)
+  * [v1.0.0-beta5](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.0.0-beta.5)
