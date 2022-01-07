@@ -15,6 +15,14 @@
 * [Specifications](leran/specifications/README.md)
   * [Layout specification](leran/specifications/layout-specification.md)
   * [Backend API Swagger Doc](leran/specifications/backend-api-swagger-doc.md)
+* [Videos](leran/videos/README.md)
+  * [OMR Layout scanning](https://youtu.be/VuYBvj8iN9A)
+  * [Auto-Sync](https://youtu.be/PJIU\_nVoANc)
+  * [Share scan app data](https://youtu.be/b-9FcB-J49o)
+  * [Skip feature](https://youtu.be/DBZp21LF5cc)
+  * [Support feature](https://youtu.be/dlp0OQ-5fAI)
+  * [validation feature](https://youtu.be/Bn41V8DpXlA)
+  * [incorrect scanning](https://youtu.be/3F-wggV3j4g)
 
 ## USE
 
