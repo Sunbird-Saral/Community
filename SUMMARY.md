@@ -2,20 +2,20 @@
 
 * [Sunbird Saral Overview](README.md)
 
-## LERAN
+## LEARN
 
-* [Software Requirement](leran/software-requirement.md)
-* [Application Architecture](leran/saral-app-architecture.md)
-* [Features](leran/features/README.md)
-  * [Multi-Tenant Branding](leran/features/multi-tenant-branding.md)
-  * [Capture AI/ML Training Data](leran/features/capture-ai-ml-training-data.md)
-  * [Support](leran/features/support.md)
-  * [Share App data](leran/features/share-app-data.md)
-  * [Auto Sync](leran/features/auto-sync.md)
-* [Specifications](leran/specifications/README.md)
-  * [Layout specification](leran/specifications/layout-specification.md)
-  * [Backend API Swagger Doc](leran/specifications/backend-api-swagger-doc.md)
-* [Videos](leran/videos/README.md)
+* [Software Requirement](learn/software-requirement.md)
+* [Application Architecture](learn/saral-app-architecture.md)
+* [Features](learn/features/README.md)
+  * [Multi-Tenant Branding](learn/features/multi-tenant-branding.md)
+  * [Capture AI/ML Training Data](learn/features/capture-ai-ml-training-data.md)
+  * [Support](learn/features/support.md)
+  * [Share App data](learn/features/share-app-data.md)
+  * [Auto Sync](learn/features/auto-sync.md)
+* [Specifications](learn/specifications/README.md)
+  * [Layout specification](learn/specifications/layout-specification.md)
+  * [Backend API Swagger Doc](learn/specifications/backend-api-swagger-doc.md)
+* [Videos](learn/videos/README.md)
   * [OMR Layout scanning](https://youtu.be/VuYBvj8iN9A)
   * [Auto-Sync](https://youtu.be/PJIU\_nVoANc)
   * [Share scan app data](https://youtu.be/b-9FcB-J49o)
