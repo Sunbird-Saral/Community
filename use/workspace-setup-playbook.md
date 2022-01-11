@@ -56,11 +56,11 @@ description: Developer Environment Setup - Playbook
 * Create a subfolder inside the backend folder name it as configuration.
 * Now create a file in **config\dev.env** and paste the below commands
 
-> > `PORT=3000`.
+> > `PORT=3000`
 
-> > `MONGODB_URL=mongodb://localhost:27017/saraldata_dev`.
+> > `MONGODB_URL=mongodb://localhost:27017/saraldata_dev`
 
-> > `JWT_SECRET=SARALDATA_NODE`.
+> > `JWT_SECRET=SARALDATA_NODE`
 
 * Run `npm run dev` command from a terminal in [$**BACKEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)**.**
 * Successful backend local deployment should show Server is up on port 3000
