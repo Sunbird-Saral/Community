@@ -14,12 +14,20 @@ description: Guidelines how to use the Saral App
 
 4\. For OMR sheets make sure bubbles are filled using a blue or black ball pen without any gaps for proper detection.
 
-5\. Succesful scan from Saral App will have indications shown in below Figures.
+5\. Minimum width and height between dark circles for each layout can be configured in the backend layout json as threshold. This will have addtional check to layout detection logic. Only if minimum width and height requirement configured in layout is met , layout detection succeeds. App shows warining message as show in below screenshot if minumum height and width is not met. This feature is available from `v1.5.0` release
+
+![](../.gitbook/assets/Screenshot\_20220125-124123\_SaralApp.jpg)
+
+(**Figure#3)** Warning when threshould is configured in layout json and criteria is not met.
+
+6\. Succesful scan from Saral App will have indications shown in below Figures.
 
 ![](../.gitbook/assets/scan\_success\_1.jpeg)
 
-(**Figure#3**) Detected the layout to be processed for detection.
+(**Figure#4**) Detected the layout to be processed for detection.
+
+
 
 ![](<../.gitbook/assets/scan\_success\_2.jpeg (1).jpeg>)
 
-(**Figure#4**) Processing detected layout for predictions. Make sure the "Please wait, scanning is in progress !!" message in blue colour is in the same direction as the layout. If both of them are  oriented in a different direction then its the wrong way to scan.
+(**Figure#5**) Processing detected layout for predictions. Make sure the "Please wait, scanning is in progress !!" message in blue colour is in the same direction as the layout. If both of them are  oriented in a different direction then its the wrong way to scan.
