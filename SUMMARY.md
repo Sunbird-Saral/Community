@@ -25,6 +25,7 @@
   * [validation feature](https://youtu.be/Bn41V8DpXlA)
   * [incorrect scanning](https://youtu.be/3F-wggV3j4g)
   * [Multi-page feature](https://youtu.be/N4SAxHEJdwU)
+  * [Branding feature](https://youtu.be/4D3e3KxlRUU)
 
 ## USE
 
