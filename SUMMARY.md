@@ -24,6 +24,7 @@
   * [Support feature](https://youtu.be/dlp0OQ-5fAI)
   * [validation feature](https://youtu.be/Bn41V8DpXlA)
   * [incorrect scanning](https://youtu.be/3F-wggV3j4g)
+  * [Multi-page feature](https://youtu.be/N4SAxHEJdwU)
 
 ## USE
 
