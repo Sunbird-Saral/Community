@@ -6,7 +6,15 @@ description: Saral App Layout specification.
 
 This is the layout specification for Saral App. Layout ROIs are captured in this format and configured in the backend for each exam. Internally Saral App uses this json interface for predicting ROIs.
 
-Checkout Github release tag and refer `Project-Saral/specs/v1/saral-physical-layout-representation-specs.yaml`
+Checkout Github release tag and refer&#x20;
+
+Release v1.5 refer
+
+`Project-Saral/specs/v1.5/saral-physical-layout-representation-specs.yaml`
+
+Release v1.0 refer
+
+`Project-Saral/specs/v1/saral-physical-layout-representation-specs.yaml`
 
 ![](../../.gitbook/assets/odisha\_layout\_marking.jpg)
 
