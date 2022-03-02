@@ -13,6 +13,7 @@
   * [Share App data](learn/features/share-app-data.md)
   * [Auto Sync](learn/features/auto-sync.md)
   * [Multi-Page support](learn/features/multi-page-support.md)
+  * [Profile Menu](learn/features/profile-menu.md)
 * [Specifications](learn/specifications/README.md)
   * [Layout specification](learn/specifications/layout-specification.md)
   * [Backend API Swagger Doc](learn/specifications/backend-api-swagger-doc.md)
