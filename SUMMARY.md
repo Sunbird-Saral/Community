@@ -55,3 +55,4 @@
   * [v1.0.0-beta5](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.0.0-beta.5)
   * [v1.5.0](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.5.0)
   * [v1.5.1](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.5.1)
+  * [v1.5.2](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.5.2)
