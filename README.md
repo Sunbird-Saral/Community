@@ -12,6 +12,6 @@ Saral v1.x works as an edge location solution to phygitize  data on physical lay
 
 ``[`Saral SDK`](engage/saral-sdk-source-code-repository.md)  is  the core Phygitization component interfaced with [`Saral Layout Specification`](learn/specifications/layout-specification.md). Saral v1.x App is a reference Android App built on [`Saral SDK`](engage/saral-sdk-source-code-repository.md) ``&#x20;
 
-``[`Saral SDK`](engage/saral-sdk-source-code-repository.md) `can be used to build custom Android applications with OCR capabilities (OMR and Handwritten Digits recognition). Refer` [saral-app-architecture.md](learn/saral-app-architecture.md "mention") for more details about [`Saral SDK`](engage/saral-sdk-source-code-repository.md)
+``[`Saral SDK`](engage/saral-sdk-source-code-repository.md)  can be used to build custom Android applications with OCR capabilities(OMR, Handwritten Digit recognition)`. Refer` [saral-app-architecture.md](learn/saral-app-architecture.md "mention") for more details about [`Saral SDK`](engage/saral-sdk-source-code-repository.md)
 
 &#x20;                                                ![](.gitbook/assets/SaralApp\_Login\_Screen.jpeg)
