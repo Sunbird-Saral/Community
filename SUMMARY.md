@@ -41,6 +41,7 @@
 * [Saral App Debug Tips](use/saral-app-debug-tips.md)
 * [Saral App Usage Guidelines](use/saral-app-usage-guidelines.md)
 * [Update BASE\_URL in APK](use/update-base\_url-in-apk.md)
+* [Update BASE\_URL in AAB](use/update-base\_url-in-aab.md)
 
 ## ENGAGE
 
