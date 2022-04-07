@@ -6,7 +6,7 @@ description: Application Architecture of Saral App
 
 **Overall Architecture**
 
-![](<../.gitbook/assets/Saral v1.0 Architecture.png>)
+****![](../.gitbook/assets/saral\_v1.5.3\_architecture-Architecture-View-Point-1.5.jpg)****
 
 * [ ] Refer [`CQube`](https://cqube.sunbird.org)for documentation
 * [ ] Saral uses [Tensorflow Lite](https://www.tensorflow.org/lite) AI/ML model embedded within Android Application for predicting Handwritten digits.
