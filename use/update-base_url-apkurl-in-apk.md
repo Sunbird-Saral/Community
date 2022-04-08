@@ -1,4 +1,4 @@
-# Update BASE\_URL in APK
+# Update BASE\_URL,apkURL in APK
 
 From unix/mac terminal open apk attached with release in `vi` editor and update `BASE_URL` using below steps.
 
@@ -15,3 +15,5 @@ From unix/mac terminal open apk attached with release in `vi` editor and update 
 5\) Press `Esc` key and enter `:wq` to save and go to file list the `vi` editor. Press `Esc` key and enter `:q` to quit the `vi` editor.
 
 6\) APK file should be updated with target BASE\_URL with above steps.
+
+7\) Search for `apkURL` and change the value to actual Playstore URL based on the implementation.

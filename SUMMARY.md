@@ -40,8 +40,8 @@
 * [Debug/Run Saral App from Android Studio](use/debug-run-saral-app-from-android-studio.md)
 * [Saral App Debug Tips](use/saral-app-debug-tips.md)
 * [Saral App Usage Guidelines](use/saral-app-usage-guidelines.md)
-* [Update BASE\_URL in APK](use/update-base\_url-in-apk.md)
-* [Update BASE\_URL in AAB](use/update-base\_url-in-aab.md)
+* [Update BASE\_URL,apkURL in APK](use/update-base\_url-apkurl-in-apk.md)
+* [Update BASE\_URL,apkURL in AAB](use/update-base\_url-apkurl-in-aab.md)
 
 ## ENGAGE
 
