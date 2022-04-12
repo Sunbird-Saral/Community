@@ -7,7 +7,7 @@
 * [Software Requirement](learn/software-requirement.md)
 * [Application Architecture](learn/saral-app-architecture.md)
 * [Features](learn/features/README.md)
-  * [Multi-Tenant Branding](learn/features/multi-tenant-branding.md)
+  * [Configurable Branding](learn/features/multi-tenant-branding.md)
   * [Capture AI/ML Training Data](learn/features/capture-ai-ml-training-data.md)
   * [Support](learn/features/support.md)
   * [Share App data](learn/features/share-app-data.md)

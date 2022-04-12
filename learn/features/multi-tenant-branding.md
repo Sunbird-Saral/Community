@@ -2,9 +2,9 @@
 description: Branding of App is configurable through backend APIs
 ---
 
-# Multi-Tenant Branding
+# Configurable Branding
 
-Saral v1.0 App supports multi-tenant branding feature. As this application will be used by different states , this feature will avoid maintaining different frontend source code to customise color themese and logs displayed.
+Saral v1.0 App supports configurable branding feature. As this application will be used by different states , this feature will avoid maintaining different frontend source code to customise color themese and logs displayed.
 
 Logo and theme colors can be customised by using below REST APIs. To understand more on these APIs , refer swagger documentation.
 
