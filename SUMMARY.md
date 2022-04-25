@@ -31,6 +31,7 @@
     * [Branding feature](https://youtu.be/4D3e3KxlRUU)
   * [Usage by States](learn/videos/usage-by-states/README.md)
     * [Gujarat Implementation - Between 39:00 - 40:00 mins](https://www.youtube.com/watch?v=OHfc36W9uoA)
+    * [Uttar Pradesh(U.P) , Gorakhpur Implementation](https://www.youtube.com/watch?v=TM5Q8iyLSr4)
 
 ## USE
 
