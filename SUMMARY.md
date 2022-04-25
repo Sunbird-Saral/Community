@@ -30,7 +30,7 @@
     * [Multi-page feature](https://youtu.be/N4SAxHEJdwU)
     * [Branding feature](https://youtu.be/4D3e3KxlRUU)
   * [Usage by States](learn/videos/usage-by-states/README.md)
-    * [Gujarat Implementation - Between 39:00 to 40:00 mins](https://www.youtube.com/watch?v=OHfc36W9uoA)
+    * [Gujarat Implementation - Between 39:00 - 40:00 mins](https://www.youtube.com/watch?v=OHfc36W9uoA)
 
 ## USE
 
