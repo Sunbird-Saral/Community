@@ -6,7 +6,7 @@ description: >-
 
 # Google Play Store App Publish Recommendations
 
-Refer to [Developer Program Policy](https://support.google.com/googleplay/android-developer/answer/11899428) for more details.
+Refer to [Developer Program Policy](https://support.google.com/googleplay/android-developer/answer/11899428) for more details. These policies can be changed by google time to time, so please refer latest policies before publishing App in playstore.
 
 **Privacy Policy** for App to be listed in the playstore to be generated and publish this policy of the app as a URL. The same `Privacy Policy URL` needs to be added in the play store "Store Listing" section of your application before publishing the Application.
 
