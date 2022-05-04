@@ -1,10 +1,10 @@
 ---
 description: >-
-  Play Store App publish have pre-requisites interns of privacy policy ,
+  Play Store App publish have pre-requisites interms of privacy policy ,
   misleading claim policy etc.
 ---
 
-# Google Play Store App Publish Recommendations
+# Google Play Store App Publish Considerations
 
 Refer to [Developer Program Policy](https://support.google.com/googleplay/android-developer/answer/11899428) for more details. These policies can be changed by google time to time, so please refer latest policies before publishing App in playstore.
 
