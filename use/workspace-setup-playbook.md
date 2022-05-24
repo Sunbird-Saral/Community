@@ -6,7 +6,7 @@ description: Developer Environment Setup - Playbook
 
 ## Software Prerequisites
 
-* [React Native](https://reactnative.dev)
+* [React Native](https://reactnative.dev/)
 * NodeJs, NPM , OpenJDK 8
 * [Android Studio Dowload](https://developer.android.com/studio)
 * [Vysor](https://www.vysor.io/download)
@@ -20,7 +20,7 @@ description: Developer Environment Setup - Playbook
 ## Other tools used
 
 * [Microsoft VoTT(Visual Object Tagging Tool)](https://github.com/microsoft/VoTT)  [VoTT Project Setup Video](https://www.youtube.com/watch?v=uXxE4Sas3uQ)
-* [Jupyter Notebook](https://jupyter.org) for transforming VoTT raw json to Saral ROI json. Refer to source repository path **specs\v1\README.md** file for more details. You may consider installing the extension in MS Visual Studio Code.
+* [Jupyter Notebook](https://jupyter.org/) for transforming VoTT raw json to Saral ROI json. Refer to source repository path **specs\v1\README.md** file for more details. You may consider installing the extension in MS Visual Studio Code.
 * PostMan or any other REST client tool to invoke/test Rest APIs.
 
 ### Source Code references
@@ -40,11 +40,11 @@ description: Developer Environment Setup - Playbook
 * [Setting up the React Native development environment](https://reactnative.dev/docs/environment-setup)  **Note**: Choose `React Native CLI Quick Start` tab for setup instructions.
 * Download [**NDK 20.0.5594570**](https://androidsdkoffline.blogspot.com/p/android-ndk-side-by-side-direct-download.html) and extract archive to **%ANDROID\_HOME%**\ndk folder.
 * In Android Studio, navigate to `File\Project Structure\SDK Location` and set Android NDK location to **%ANDROID\_HOME%**\ndk\android-ndk-r20 (extracted in the last step).
-* Register on [Google Firebase](https://firebase.google.com), add the Saral project on the firebase dashboard and download the corresponding **google-services.json**.
+* Register on [Google Firebase](https://firebase.google.com/), add the Saral project on the firebase dashboard and download the corresponding **google-services.json**.
 * Place downloaded `google-services.json` under [$**FRONTEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)/SaralApp/android/app folder.
 * Once Vysor and AVD are configured as per the instructions, follow the below steps to bring up the application.
 * Open a terminal in [$**FRONTEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)**/SaralApp** and run `npm i` the command.
-* `cd android && ./gradlew clean && cd..`
+* `cd android && ./gradlew clean && cd ..`
 * `npx react-native run-android`
 * Make sure backend **BASE\_URL** is configured in [$**FRONTEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)**/SaralApp/src/configs/config.js** file.
 * Successful frontend deployment should show Saral OCR login screen on AVD or USB connected Android device.
