@@ -17,15 +17,16 @@ Auto Sync can be controlled by following configuration:
 ```
 autoSynch - boolean
 autoSynchFrequency - integer
+autoSyncBatchSize - integer
 ```
 
 `autoSynch` is a boolean property in `/schools/login` API response. if it's set to true then Auto Sync process will be enabled.
 
 `autoSynchFrequency` is frequency at which auto-synch to be executed.&#x20;
 
+`autoSyncBatchSize` is batch size for auto-sync functionality. Auto-sync triggers based on number of records available in local storage. if its minimum of `autoSyncBatchSize` and other configuration matches, auto sync to backend will be triggered in mobile app. Default value if not set is 10.
+
 `/schools/login` API response with `autoSynch` and `autoSynchFrequency` configuration reference.
-
-
 
 ```
 {
@@ -35,7 +36,8 @@ autoSynchFrequency - integer
     "schoolId" : "u002",
     "state" : "up",
     "autoSynch" : true,
-    "autoSynchFrequency" : 9000
+    "autoSynchFrequency" : 9000,
+    "autoSyncBatchSize": 20
 }
 }
 ```
