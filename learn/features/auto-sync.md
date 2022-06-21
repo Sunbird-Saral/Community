@@ -11,3 +11,32 @@ This feature is available from `v1.0.0-beta.5` release and above.
 ![](../../.gitbook/assets/sync-1.jpeg)![](<../../.gitbook/assets/sync-2 (1).jpeg>)
 
 &#x20; ![](../../.gitbook/assets/sync-7.jpeg)![](<../../.gitbook/assets/sync-3 (1).jpeg>)
+
+Auto Sync can be controlled by following configuration:
+
+```
+autoSynch - boolean
+autoSynchFrequency - integer
+```
+
+`autoSynch` is a boolean property in `/schools/login` API response. if it's set to true then Auto Sync process will be enabled.
+
+`autoSynchFrequency` is frequency at which auto-synch to be executed.&#x20;
+
+`/schools/login` API response with `autoSynch` and `autoSynchFrequency` configuration reference.
+
+
+
+```
+{
+"school" : {
+    "storeTrainingData" : true,
+    "name" : "Dummy school 4",
+    "schoolId" : "u002",
+    "state" : "up",
+    "autoSynch" : true,
+    "autoSynchFrequency" : 9000
+}
+}
+```
+
