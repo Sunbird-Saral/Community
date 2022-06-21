@@ -14,9 +14,9 @@ Refer [layout-specification.md](../learn/specifications/layout-specification.md 
 
 Refer more details from [Saral App Layout generation and configuring in backend](https://github.com/Sunbird-Saral/Project-Saral/wiki/Saral-App-Layout-generation-and-configuring-in-backend)
 
-Starting from `v1.5.0` release each layout can have threshold minimum width and minimum height configured. This configuration is used by App to detect the sheet only if minimum width and height between dark corner circles is met with scanned sheet/layout. This is to avoid invalid scans which may result in unwanted predictions.
+Starting from `v1.5.0` release each layout can have threshold minimum width,minimum height and detectionRadius configured. This configuration is used by App to detect the sheet only if minimum width and height between dark corner circles is met with scanned sheet/layout. This is to avoid invalid scans which may result in unwanted predictions.
 
-Sample layout with threshould minWidth and minHeight configuration.
+Sample layout with threshould minWidth, minHeight and radius(radius of 4 corner dark circles for alignment) configuration.
 
 ```
       "layout": {
@@ -24,7 +24,8 @@ Sample layout with threshould minWidth and minHeight configuration.
           "name": "HINDI8S13QOMR Exam Sheet Form",
           "threshold": {
               "minWidth" : 500,
-              "minHeight": 200
+              "minHeight": 200,
+              "detectionRadius": 12
           },            
           "cells": [
               {
