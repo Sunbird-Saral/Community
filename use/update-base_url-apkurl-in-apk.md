@@ -10,7 +10,7 @@ From unix/mac terminal open apk attached with release in `vi` editor and update 
 
 3\) Press `Esc` key and type `/index.android.bundle` and presss `Enter` key to locate `assets/index.android.bundle` file and press `Enter` key. This will open up the file for editing.
 
-4\) Search for `TO_BE_REPLACED` string and replace it with target BASE\_URL. For example \`[https://saral-statename.anuvaad.org](https://saral-statename.anuvaad.org)\`
+4\) Search for `TO_BE_REPLACED` string and replace it with target BASE\_URL. For example \`[https://saral-statename.anuvaad.org](https://saral-statename.anuvaad.org/)\`
 
 5\) Press `Esc` key and enter `:wq` to save and go to file list the `vi` editor. Press `Esc` key and enter `:q` to quit the `vi` editor.
 

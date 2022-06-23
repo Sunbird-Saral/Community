@@ -13,4 +13,4 @@ description: Software Requirement for Development or Maintenance
 | **MongoDB**      | Backend data store **(Reference backend Implementation)**                                                                                 | [https://www.mongodb.com/](https://www.mongodb.com) |
 | **Docker**       | DevOps **(Reference backend Implementation)**                                                                                             | [https://www.docker.com/](https://www.docker.com)   |
 | **NodeJS**       | **Reference backend API Implementation**                                                                                                  | [https://nodejs.org/en/](https://nodejs.org/en/)    |
-| **Java 8**       | Android Layer code in SaralSDK , OpenCV Libraries                                                                                         | [https://www.java.com/](https://www.java.com)       |
+| **Java 8**       | Android Layer code in SaralSDK , OpenCV Libraries                                                                                         | [https://www.java.com/](https://www.java.com/)      |
