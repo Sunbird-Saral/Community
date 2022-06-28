@@ -92,3 +92,10 @@ Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
 1. Open terminal from [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android` folder and execute the below command to verify if AAB signature.
 
 `jarsigner -verbose -verify ./app/build/outputs/apk/release/app-release.aab`
+
+``
+
+AAB file can't be used for installation and testing directly. Its for publishing to playstore. Once AAB file is generated , use below command to generate universal APK for installation and testing before publishing to Google play-store.
+
+1. Download Bundletool from [Bundle Tool Releases](https://github.com/google/bundletool/releases)``
+2. `java -jar bundletool.jar build-apks --bundle=app-release.aab --output=app-release.apks --mode=universal`
