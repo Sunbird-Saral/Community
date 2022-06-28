@@ -40,7 +40,7 @@ description: Developer Environment Setup - Playbook
 * [Setting up the React Native development environment](https://reactnative.dev/docs/environment-setup)  **Note**: Choose `React Native CLI Quick Start` tab for setup instructions.
 * Download [**NDK 20.0.5594570**](https://androidsdkoffline.blogspot.com/p/android-ndk-side-by-side-direct-download.html) and extract archive to **$ANDROID\_HOME**\ndk folder.
 * In Android Studio, navigate to `File\Project Structure\SDK Location` and set Android NDK location to **$ANDROID\_HOME**\ndk\android-ndk-r20 (extracted in the last step).
-* Make sure `sdk.dir` and `ndk.dir` paths are set properly in [$**FRONTEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)**\\**SaralApp**\\**android\local.properties.&#x20;
+* Make sure `sdk.dir` paths are set properly in [$**FRONTEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)**\\**SaralApp**\\**android\local.properties.&#x20;
 * Register on [Google Firebase](https://firebase.google.com/), add the Saral project on the firebase dashboard and download the corresponding **google-services.json**.
 * Place downloaded `google-services.json` under [$**FRONTEND\_FOLDER**](workspace-setup-playbook.md#source-code-references)/SaralApp/android/app folder.
 * Once Vysor and AVD are configured as per the instructions, follow the below steps to bring up the application.
