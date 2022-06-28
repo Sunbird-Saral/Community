@@ -98,4 +98,4 @@ Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
 AAB file can't be used for installation and testing directly. Its for publishing to playstore. Once AAB file is generated , use below command to generate universal APK for installation and testing before publishing to Google play-store.
 
 1. Download Bundletool from [Bundle Tool Releases](https://github.com/google/bundletool/releases)
-2. `java -jar <bundletool-all-1.10.0.jar> build-apks --bundle=app-release.aab --output=app-release.apks --mode=universal--ks=keystore.jks --ks-pass=pass:your_keystore_password --ks-key-alias=your_key_alias --key-pass=pass:your_key_password`
+2. `java -jar <bundletool-all-1.10.0.jar> build-apks --bundle=app-release.aab --output=app-release.apks --mode=universal --ks=keystore.jks --ks-pass=pass:your_keystore_password --ks-key-alias=your_key_alias --key-pass=pass:your_key_password`
