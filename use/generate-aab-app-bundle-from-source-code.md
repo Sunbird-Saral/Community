@@ -19,7 +19,8 @@ description: Steps how to generate ABB from source code
 ### Saral v1.0 Android App bundling/packaging
 
 1. Follow Frontend Setup steps @ [workspace-setup-playbook.md](workspace-setup-playbook.md "mention")
-2. Open Terminal in [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android` folder
+2. Implementing Saral App for specific purpose , its recommended to change default package `com.saralapp` references to implementation specific package for example `com.saralapp.xxstate` for xxstate. Refer below screenshot.                                           ![](../.gitbook/assets/Saral-Package-Change-Latest.png)                                                                                                   &#x20;
+3. Open Terminal in [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android` folder
 
 > > `./gradlew clean`
 
