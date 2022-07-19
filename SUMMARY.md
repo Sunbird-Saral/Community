@@ -50,6 +50,7 @@
 * [Update BASE\_URL,apkURL in AAB](use/update-base\_url-apkurl-in-aab.md)
 * [Sign already generated AAB(Android App Bundle) file with private key](use/sign-already-generated-aab-android-app-bundle-file-with-private-key.md)
 * [Google Play Store App Publish Considerations](use/google-play-store-app-publish-recommendations.md)
+* [Layout Design Guidelines](use/layout-design-guidelines.md)
 
 ## ENGAGE
 

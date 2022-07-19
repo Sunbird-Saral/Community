@@ -112,5 +112,5 @@ For non-academic use-cases, there will be no fixed participants like students an
 }
 ```
 
-![](<../../.gitbook/assets/image (4).png>) ![](../../.gitbook/assets/image.png) ![](<../../.gitbook/assets/image (1).png>)&#x20;
+![](<../../.gitbook/assets/image (4).png>) ![](../../.gitbook/assets/image.png) ![](<../../.gitbook/assets/image (1) (1).png>)&#x20;
 
