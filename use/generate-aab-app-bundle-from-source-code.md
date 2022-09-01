@@ -20,7 +20,13 @@ description: Steps how to generate ABB from source code
 
 1. Follow Frontend Setup steps @ [workspace-setup-playbook.md](workspace-setup-playbook.md "mention")
 2. Implementing Saral App for specific purpose , its recommended to change default package `com.saralapp` references to implementation specific package for example `com.saralapp.xxstate` for xxstate. Refer below screenshot.                                           ![](../.gitbook/assets/Saral-Package-Change-Latest.png)                                                                                                   &#x20;
-3. Open Terminal in [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android` folder
+3. App Icon can be customised/replaced by generating App icon using standard icon editors and replace icons in below folders.
+   * $FRONTEND\_FOLDER\SaralApp\android\app\src\main\res\mipmap-mdpi
+   * $FRONTEND\_FOLDER\SaralApp\android\app\src\main\res\mipmap-hdpi&#x20;
+   * $FRONTEND\_FOLDER\SaralApp\android\app\src\main\res\mipmap-xhdpi&#x20;
+   * $FRONTEND\_FOLDER\SaralApp\android\app\src\main\res\mipmap-xxhdpi&#x20;
+   * $FRONTEND\_FOLDER\SaralApp\android\app\src\main\res\mipmap-xxxhdpi
+4. Open Terminal in [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android` folder
 
 > > `./gradlew clean`
 
