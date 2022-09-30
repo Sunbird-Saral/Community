@@ -6,6 +6,7 @@
 
 * [Software Requirement](learn/software-requirement.md)
 * [Application Architecture](learn/saral-app-architecture.md)
+* [Saral App API Integration](learn/saral-app-api-integration.md)
 * [Features](learn/features/README.md)
   * [Configurable Branding](learn/features/configurable-branding.md)
   * [Capture AI/ML Training Data](learn/features/capture-ai-ml-training-data.md)
