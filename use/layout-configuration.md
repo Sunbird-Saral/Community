@@ -19,28 +19,36 @@ Starting from `v1.5.0` release each layout can have threshold minimum width,mini
 Sample layout with threshould minWidth, minHeight and radius(radius of 4 corner dark circles for alignment) configuration.
 
 ```
-      "layout": {
-          "version": "1.0",
-          "name": "HINDI8S13QOMR Exam Sheet Form",
-          "threshold": {
-              "minWidth" : 500,
-              "minHeight": 200,
-              "detectionRadius": 12
-          },            
-          "cells": [
-              {
-                  "cellId": "1",
-                  "rois": [
-                      {
-                          "annotationTags": "ROLLNUMBERID1_1",
-                          "extractionMethod": "NUMERIC_CLASSIFICATION",
-                          "roiId": "1",
-                          "index": 0,
-                          "rect": {
-                              "top": 151,
-                              "left": 54,
-                              "bottom": 178,
-                              "right": 69
-                          }
-                      },
+  "layout": {
+      "version": "1.0",
+      "name": "HINDI8S13QOMR Exam Sheet Form",
+      "threshold": {
+          "minWidth" : 500,
+          "minHeight": 200,
+          "detectionRadius": 12
+      },            
+      "cells": [
+          {
+              "cellId": "1",
+              "rois": [
+                  {
+                      "annotationTags": "ROLLNUMBERID1_1",
+                      "extractionMethod": "NUMERIC_CLASSIFICATION",
+                      "roiId": "1",
+                      "index": 0,
+                      "rect": {
+                          "top": 151,
+                          "left": 54,
+                          "bottom": 178,
+                          "right": 69
+                      }
+                  },
 ```
+
+**Extraction Methods Supported**
+
+| extractionMethod                        | Description                                                                                                               |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **NUMERIC\_CLASSIFICATION**             | This extraction method is used for handwritten digits 0 to 9.                                                             |
+| **CELL\_OMR**                           | This extraction method is used for omr detection.                                                                         |
+| **BLOCK\_ALPHANUMERIC\_CLASSIFICATION** | This extraction method is used for Alphanumeric detection . For example Address filed can hold block letters with digits. |
