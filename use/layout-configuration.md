@@ -18,6 +18,10 @@ Starting from `v1.5.0` release each layout can have threshold minimum width,mini
 
 Sample layout with threshould minWidth, minHeight and radius(radius of 4 corner dark circles for alignment) configuration.
 
+`threshold\experimentalOMRDetection` flag is used to enable experimental feature to detection OMR filled with pencil or any color pen. This experimental feature will be available from v1.5.6 release or above.
+
+
+
 ```
   "layout": {
       "version": "1.0",
@@ -25,7 +29,8 @@ Sample layout with threshould minWidth, minHeight and radius(radius of 4 corner 
       "threshold": {
           "minWidth" : 500,
           "minHeight": 200,
-          "detectionRadius": 12
+          "detectionRadius": 12,
+          "experimentalOMRDetection": true
       },            
       "cells": [
           {
@@ -47,8 +52,8 @@ Sample layout with threshould minWidth, minHeight and radius(radius of 4 corner 
 
 **Extraction Methods Supported**
 
-| extractionMethod                        | Description                                                                                                               |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **NUMERIC\_CLASSIFICATION**             | This extraction method is used for handwritten digits 0 to 9.                                                             |
-| **CELL\_OMR**                           | This extraction method is used for omr detection.                                                                         |
-| **BLOCK\_ALPHANUMERIC\_CLASSIFICATION** | This extraction method is used for Alphanumeric detection . For example Address filed can hold block letters with digits. |
+| extractionMethod                        | Description                                                                                                                                                                        |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **NUMERIC\_CLASSIFICATION**             | This extraction method is used for handwritten digits 0 to 9.                                                                                                                      |
+| **CELL\_OMR**                           | This extraction method is used for omr detection.                                                                                                                                  |
+| **BLOCK\_ALPHANUMERIC\_CLASSIFICATION** | This extraction method is used for Alphanumeric detection . For example Address filed can hold block letters with digits. This feature is available from v1.5.6 release and above. |
