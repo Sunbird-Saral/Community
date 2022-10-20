@@ -17,6 +17,7 @@
   * [Dynamic Validations](learn/features/dynamic-validations.md)
   * [Dynamic Tagging](learn/features/dynamic-tagging.md)
   * [Minimal Mode](learn/features/minimal-mode.md)
+  * [Offline mode](learn/features/offline-mode.md)
 * [Specifications](learn/specifications/README.md)
   * [Layout specification](learn/specifications/layout-specification.md)
   * [Backend API Swagger Doc](learn/specifications/backend-api-swagger-doc.md)
