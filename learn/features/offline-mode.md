@@ -1,6 +1,6 @@
 # Offline mode
 
-This feature will be avilable from Saral releases v1.5.6 and above.
+This feature will be avilable from Saral release `v1.5.6` and above.
 
 > When we login into the app backend should have an offlineMode flag true, offline mode will be enabled. Also as this feature caches api response as needed , this will occupy additional mobile local storage. Please ensure sufficient storage is available on the device.&#x20;
 
