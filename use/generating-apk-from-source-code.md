@@ -76,6 +76,14 @@ Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
         }
         release {
             signingConfig signingConfigs.release
+            shrinkResources enableProguardInReleaseBuilds
+            zipAlignEnabled enableProguardInReleaseBuilds
+            useProguard enableProguardInReleaseBuilds
+
+            minifyEnabled enableProguardInReleaseBuilds
+            minifyEnabled true
+            shrinkResources true
+                        
             debug {
                 debuggable true
             }
