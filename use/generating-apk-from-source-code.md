@@ -76,6 +76,7 @@ Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
         }
         release {
             signingConfig signingConfigs.release
+            /* These are optional params to shrink the app size*/
             shrinkResources enableProguardInReleaseBuilds
             zipAlignEnabled enableProguardInReleaseBuilds
             useProguard enableProguardInReleaseBuilds
@@ -83,7 +84,8 @@ Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
             minifyEnabled enableProguardInReleaseBuilds
             minifyEnabled true
             shrinkResources true
-                        
+            /* These are optional params to shrink the app size*/
+                                    
             debug {
                 debuggable true
             }
