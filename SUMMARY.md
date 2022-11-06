@@ -73,3 +73,5 @@
   * [v1.5.5](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.5.5)
   * [v1.5.6](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.5.6)
 * [Discuss](https://github.com/Sunbird-Saral/Community/discussions)
+* [Known Issues](engage/known-issues/README.md)
+  * [react-native android build issue](https://github.com/facebook/react-native/issues/35210)
