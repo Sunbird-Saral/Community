@@ -30,7 +30,7 @@ description: Steps how to generate ABB from source code
 
 > > `./gradlew clean`
 
-1. APK Signing can be enabled using the below Gradle files. Make sure the Keystore file is to be used for signing placed in [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android/app` folder.
+1. AAB Signing can be enabled using the below Gradle files. Make sure the Keystore file is to be used for signing placed in [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android/app` folder.
 
 > > **``**[**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android/gradle.properties`
 
