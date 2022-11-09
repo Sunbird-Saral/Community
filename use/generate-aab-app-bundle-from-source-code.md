@@ -94,7 +94,8 @@ Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
 ```
 
 1. Update `google-services.json` file in [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android/app` folder.
-2. Open Terminal in [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android` folder
+2. Edit [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/src/config/config.js` to change apkVersionId , apkURL, BASE\_URL as per the implementation.&#x20;
+3. Open Terminal in [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android` folder
 
 > > `./gradlew bundleRelease`
 
