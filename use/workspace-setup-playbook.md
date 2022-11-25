@@ -7,7 +7,9 @@ description: Developer Environment Setup - Playbook
 ## Software Prerequisites
 
 * [React Native](https://reactnative.dev/)
-* NodeJs, NPM , OpenJDK 8
+* NodeJs (Recommended version v16.9.1 LTS)
+* NPM
+* OpenJDK 8
 * [Android Studio Dowload](https://developer.android.com/studio)
 * [Vysor](https://www.vysor.io/download)
 * NDK old Version **20.0.5594570** needed to be compatible. Use command `sdkmanager 'ndk;20.0.5594570'` to switch to ndk **20.0.5594570**. (This command is handy on Mac or Linux)
