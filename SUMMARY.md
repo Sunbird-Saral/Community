@@ -55,6 +55,7 @@
 * [Sign already generated AAB(Android App Bundle) file with private key](use/sign-already-generated-aab-android-app-bundle-file-with-private-key.md)
 * [Google Play Store App Publish Considerations](use/google-play-store-app-publish-recommendations.md)
 * [Layout Design Guidelines](use/layout-design-guidelines.md)
+* [Saral OCR Assets](https://github.com/Sunbird-Saral/react-native-saral-sdk/tree/enhancement/ml\_folder\_struct/ml\_models)
 
 ## ENGAGE
 
