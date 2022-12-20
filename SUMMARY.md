@@ -19,7 +19,7 @@
   * [Minimal Mode](learn/features/minimal-mode.md)
   * [Offline mode](learn/features/offline-mode.md)
   * [App Force Update](learn/features/app-force-update.md)
-  * [Review results/marks Feature](learn/features/review-results-marks-feature.md)
+  * [Review results/marks](learn/features/review-results-marks.md)
 * [Specifications](learn/specifications/README.md)
   * [Layout specification](learn/specifications/layout-specification.md)
   * [Backend API Swagger Doc](learn/specifications/backend-api-swagger-doc.md)
