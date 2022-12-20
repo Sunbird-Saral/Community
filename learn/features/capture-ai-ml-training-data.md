@@ -90,5 +90,4 @@ Sample request from Saral App to backend API`PUT /saveMarks`
 	"classId": "5",
 	"__v": 0
 }
-
 ```
