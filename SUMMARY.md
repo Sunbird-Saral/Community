@@ -20,6 +20,7 @@
   * [Offline mode](learn/features/offline-mode.md)
   * [App Force Update](learn/features/app-force-update.md)
   * [Review results/marks](learn/features/review-results-marks.md)
+  * [Firebase Analytics and Crashlytics](learn/features/firebase-analytics-and-crashlytics.md)
 * [Specifications](learn/specifications/README.md)
   * [Layout specification](learn/specifications/layout-specification.md)
   * [Backend API Swagger Doc](learn/specifications/backend-api-swagger-doc.md)
