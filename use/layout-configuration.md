@@ -6,11 +6,31 @@ description: Layout configuration for Saral App to detect and predict
 
 Refer [layout-specification.md](../learn/specifications/layout-specification.md "mention")
 
-1. Tools like [MS VoTT](https://github.com/microsoft/VoTT) can be used to tag ROIs with the layout. This will give a raw VoTT Json with ROI coordinates.
+1.  Capture the printed layout using saral app for tagging.
 
-2\. Use [Jupyter Notebook](https://jupyter.org) to transform raw VoTT Json to target [layout-specification.md](../learn/specifications/layout-specification.md "mention") json format.
+    1. > Set debug option to true to store the image in android mobile. Modify below java file under /saralsdk and change below highlighted flags to true.
 
-3\. This final layout json should be configured in backend `GET /roi/{examId}` API for each exam to enable the layout.
+    SaralSDKOpenCVScannerActivity.java
+
+    > > ```
+    > >    mTableCornerDetection           = new TableCornerCirclesDetection(true);
+    > >    mDetectShaded                   = new DetectShaded(true);
+    > > ```
+
+    2. > With the above changes, run the scan on the mobile.
+    3. > Use the below command to grab the android level logs and search for 'SrlSDK::CVOps: Saving file:' and 'SrlSDK::DetectShaded: Saving file:'. This will give you path to where the saved images are stored in your android phone.
+
+    `adb logcat`
+
+    4.  > Use the below command to pull the images finally. `adb pull <image path in android phone found in above logs>` example: `adb pull /storage/emulated/0/Android/data/com.saralapp/files/Download/table_4Fg.jpg`
+
+
+
+2\. Tools like [MS VoTT](https://github.com/microsoft/VoTT) can be used to tag ROIs with the layout. This will give a raw VoTT Json with ROI coordinates.
+
+3\. Use [Jupyter Notebook](https://jupyter.org) to transform raw VoTT Json to target [layout-specification.md](../learn/specifications/layout-specification.md "mention") json format.
+
+4\. This final layout json should be configured in backend `GET /roi/{examId}` API for each exam to enable the layout.
 
 Refer more details from [Saral App Layout generation and configuring in backend](https://github.com/Sunbird-Saral/Project-Saral/wiki/Saral-App-Layout-generation-and-configuring-in-backend)
 
