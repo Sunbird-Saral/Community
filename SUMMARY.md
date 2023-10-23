@@ -2,6 +2,8 @@
 
 * [Sunbird Saral Overview](README.md)
 * [Saral Quick Guide](saral-adaptation/saral-quick-guide.md)
+* [Saral Implementation Manual](./.gitbook/assets/Saral%20Implementation%20Manual.docx)
+* [Saral Transformation Story](./.gitbook/assets/Saral_Transformation%20Story_V2.docx)
 
 ## LEARN
 
@@ -63,6 +65,8 @@
 * [Google Play Store App Publish Considerations](use/google-play-store-app-publish-recommendations.md)
 * [Layout Design Guidelines](use/layout-design-guidelines.md)
 * [Saral OCR Assets](https://github.com/Sunbird-Saral/react-native-saral-sdk/tree/develop/ml\_models)
+* [Firebase setup for Saral App Telemetry](use/firebase-setup-for-saral-app-telemetry.md)
+* [Firebase setup for TFLite model deployment](use/firebase-setup-for-tflite-model-deployment.md)
 
 ## ENGAGE
 
