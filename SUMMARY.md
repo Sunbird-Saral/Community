@@ -2,7 +2,7 @@
 
 * [Sunbird Saral Overview](README.md)
 * [Saral Quick Guide](saral-adaptation/saral-quick-guide.md)
-* [Saral Implementation Manual](./doc/Saral%20Implementation%20Manual.docx)
+* [Saral Implementation Manual](./docs/Saral%20Implementation%20Manual.docx)
 * [Saral Transformation Story](./docs/Saral_Transformation%20Story_V2.docx)
 
 ## LEARN
