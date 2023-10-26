@@ -25,7 +25,7 @@
   * [Review results/marks](learn/features/review-results-marks.md)
   * [Firebase Analytics and Crashlytics](learn/features/firebase-analytics-and-crashlytics.md)
   * [ML model deployment using Firebase](learn/features/ml-model-deployment-using-firebase.md)
-  * [Improved Low light Performance - Manual Edit](learn\features\Improved-low-light-performance-manual-edit.md)
+  * [Improved Low light Performance - Manual Edit](learn/features/Improved-low-light-performance-manual-edit.md)
 * [Specifications](learn/specifications/README.md)
   * [Layout specification](learn/specifications/layout-specification.md)
   * [Backend API Swagger Doc](learn/specifications/backend-api-swagger-doc.md)
