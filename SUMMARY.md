@@ -1,6 +1,9 @@
 # Table of contents
 
 * [Sunbird Saral Overview](README.md)
+* [Saral Quick Guide](saral-adaptation/saral-quick-guide.md)
+* [Saral Implementation Manual](https://docs.google.com/document/d/1SMV2VRhOpEB1n8foHdK70X1--KSI0CPl/edit?usp=share_link&ouid=114303898945073408189&rtpof=true&sd=true)
+* [Saral Transformation Story](https://docs.google.com/document/d/1lcOjxUIb3vmQTBI8cq9xpAIt-M8e2d9z/edit?usp=share_link&ouid=114303898945073408189&rtpof=true&sd=true)
 
 ## LEARN
 
@@ -22,6 +25,7 @@
   * [Review results/marks](learn/features/review-results-marks.md)
   * [Firebase Analytics and Crashlytics](learn/features/firebase-analytics-and-crashlytics.md)
   * [ML model deployment using Firebase](learn/features/ml-model-deployment-using-firebase.md)
+  * [Improved Low light Performance - Manual Edit](learn/features/Improved-low-light-performance-manual-edit.md)
 * [Specifications](learn/specifications/README.md)
   * [Layout specification](learn/specifications/layout-specification.md)
   * [Backend API Swagger Doc](learn/specifications/backend-api-swagger-doc.md)
@@ -61,6 +65,8 @@
 * [Google Play Store App Publish Considerations](use/google-play-store-app-publish-recommendations.md)
 * [Layout Design Guidelines](use/layout-design-guidelines.md)
 * [Saral OCR Assets](https://github.com/Sunbird-Saral/react-native-saral-sdk/tree/develop/ml\_models)
+* [Firebase setup for Saral App Telemetry](use/firebase-setup-for-saral-app-telemetry.md)
+* [Firebase setup for TFLite model deployment](use/firebase-setup-for-tflite-model-deployment.md)
 
 ## ENGAGE
 
@@ -81,4 +87,7 @@
   * [v1.5.5](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.5.5)
   * [v1.5.6](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.5.6)
   * [v1.5.7](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.5.7)
+  * [v1.5.9](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.5.9)
+  * [v1.6.0](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.6.0)
+  * [v1.6.1](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.6.1)
 * [Discuss](https://github.com/Sunbird-Saral/Community/discussions)
