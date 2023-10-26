@@ -1,7 +1,7 @@
-## Saral Quick Guide
+## **Saral Quick Guide**
 * Is SARAL for you? - Discuss more [here](https://github.com/orgs/Sunbird-Saral/discussions/91)
 
-### Getting Started
+### **Getting Started**
 * What kind of team will you need? - [Refer](https://docs.google.com/document/d/1pLTSwwak-u9CGl1IMyFbeFmgHH69kG_e/edit#heading=h.3znysh7)
 * What kind of hardware you need to run SARAL smoothly?
   * Saral backend Production deployment - [Refer](https://docs.google.com/document/d/1pLTSwwak-u9CGl1IMyFbeFmgHH69kG_e/edit#heading=h.2jxsxqh)
@@ -10,7 +10,7 @@
   * Saral backend - [Refer](https://docs.google.com/document/d/1pLTSwwak-u9CGl1IMyFbeFmgHH69kG_e/edit#heading=h.30j0zll)
   * Saral frontend - [Refer](https://docs.google.com/document/d/1Z_9HBaB_I1vAM7FQ3XhNL0f0bkl8j4BN/edit?usp=share_link&ouid=114303898945073408189&rtpof=true&sd=true)
 
-### Use Saral
+### **Use Saral**
 * How to setup the frontend (app) - [Refer](https://docs.google.com/document/d/1Z_9HBaB_I1vAM7FQ3XhNL0f0bkl8j4BN/edit?usp=share_link&ouid=114303898945073408189&rtpof=true&sd=true)
 * How to set up the backend
   * local/development setup - [Refer](https://docs.google.com/document/d/1pLTSwwak-u9CGl1IMyFbeFmgHH69kG_e/edit#heading=h.3dy6vkm)
@@ -22,7 +22,7 @@
 * Performance benchmarking of SARAL(production setup) - [Refer](https://docs.google.com/document/d/118ZMNR-1N4HsOyB61PwNJZWcpuscalrS/edit?usp=sharing&ouid=108822542868117713442&rtpof=true&sd=true)
 * How to conduct a full-scale rollout of SARAL for my use case - NAT assessment case study in UP [Refer](https://docs.google.com/document/d/1SMV2VRhOpEB1n8foHdK70X1--KSI0CPl/edit?usp=share_link&ouid=114303898945073408189&rtpof=true&sd=true)
 
-### How to Enhance Saral
+### **How to Enhance Saral**
 * What all aspects of the app are configurable - [Refer](../learn/features/configurable-branding.md)
 * How to create & add a new form in SARAL for assessments?
   * To create new form layout you can use this tool. [Refer](https://github.com/Sunbird-Saral/Saral-Layout-Generator/blob/main/README.md)
@@ -31,12 +31,12 @@
 * How to make customizations in the app and still be able to get SARAL upgrades?\
 A front end developer with React native skills should be able to customize and upgrade refering this documentation
 
-### Monitor SARAL
+### **Monitor SARAL**
 * How can I monitor the health of my instance - [Refer](https://docs.google.com/document/d/1pLTSwwak-u9CGl1IMyFbeFmgHH69kG_e/edit#heading=h.1pxezwc)
 * How can I track the usage of the instance ( telemetry)?\
 Through play console & firebase
 
-### Support & contribute
+### **Support & contribute**
 * How can I seek support for SARAL?\
 Through github discussion forum [Link](https://github.com/orgs/Sunbird-Saral/discussions)
 * How can I suggest improvements for SARAL?\
