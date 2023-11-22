@@ -90,4 +90,5 @@
   * [v1.5.9](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.5.9)
   * [v1.6.0](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.6.0)
   * [v1.6.1](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.6.1)
+  * [v1.6.2](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.6.2)
 * [Discuss](https://github.com/Sunbird-Saral/Community/discussions)

@@ -43,4 +43,4 @@ Through github discussion forum [Link](https://github.com/orgs/Sunbird-Saral/dis
 Through github discussion forum [Link](https://github.com/orgs/Sunbird-Saral/discussions)
 
 ### Want to experience Saral?
-Write to us on [Link](https://github.com/orgs/Sunbird-Saral/discussions)
+Write to us about your usecase [here](https://github.com/orgs/Sunbird-Saral/discussions)
