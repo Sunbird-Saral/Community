@@ -41,3 +41,6 @@ Through play console & firebase
 Through github discussion forum [Link](https://github.com/orgs/Sunbird-Saral/discussions)
 * How can I suggest improvements for SARAL?\
 Through github discussion forum [Link](https://github.com/orgs/Sunbird-Saral/discussions)
+
+### Want to experience Saral?
+Write to us about your usecase [here](https://github.com/orgs/Sunbird-Saral/discussions)
