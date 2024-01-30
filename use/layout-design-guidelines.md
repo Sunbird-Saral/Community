@@ -26,11 +26,11 @@ Below are the guidlines to design layouts compatible with `Saral App` and `Saral
 
 <img src="https://lh5.googleusercontent.com/T9n-rKcUlcIdcacqr36gPtpXSoTIsnccT7_87hQR3nxYllU2sqrUnnd5eoeVfNGV9ZDnimYRXeexFFApbAo_EvM48clT-WvNvhJJjkWshfgjPGL5Cc6Tzoz94jaX0odsnQ-z0hi2Da0gZCfHhKdPIA" alt="" data-size="line">  Row & Column Width – 41px, Height-41px Border – 1px, Border Color - #000
 
-****
+
 
 **Text** Font Name – “Noto Sans”, Color- #707070, Font Size – 9px (Optional, can use other fonts and colors)
 
-****
+
 
 **Page Size** – Custom Size, Maximum Dimension In MM - Maximum Width – 842 mm & Maximum Height- 595 mm Dimension In Inch - Maximum Width – 33 inch & Maximum Height- 24 inch Dimension In Pixel (300ppi/dpi) - Maximum Width – 3182 pixel & Maximum Height- 2248 pixel Mode - Landscape
 

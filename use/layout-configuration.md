@@ -70,8 +70,4 @@ Sample layout with threshould minWidth, minHeight and radius(radius of 4 corner 
 
 **Extraction Methods Supported**
 
-| extractionMethod                        | Description                                                                                                                                                                        |
-| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **NUMERIC\_CLASSIFICATION**             | This extraction method is used for handwritten digits 0 to 9.                                                                                                                      |
-| **CELL\_OMR**                           | This extraction method is used for omr detection. Added `experimentalOMRDetection`flag to support OMR filled with pencil,any color ball pens.                                      |
-| **BLOCK\_ALPHANUMERIC\_CLASSIFICATION** | This extraction method is used for Alphanumeric detection . For example Address filed can hold block letters with digits. This feature is available from v1.5.6 release and above. |
+<table><thead><tr><th width="402">extractionMethod</th><th>Description</th></tr></thead><tbody><tr><td><strong>NUMERIC_CLASSIFICATION</strong></td><td>This extraction method is used for handwritten digits 0 to 9.</td></tr><tr><td><strong>CELL_OMR</strong></td><td>This extraction method is used for omr detection. Added <code>experimentalOMRDetection</code>flag to support OMR filled with pencil,any color ball pens.</td></tr><tr><td><strong>BLOCK_ALPHANUMERIC_CLASSIFICATION</strong></td><td>This extraction method is used for Alphanumeric detection . For example Address filed can hold block letters with digits. This feature is available from v1.5.6 release and above.</td></tr></tbody></table>

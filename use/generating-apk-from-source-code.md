@@ -32,7 +32,7 @@ description: Steps how to generate APK from source code
 
 APK Signing can be enabled using the below Gradle files. Make sure the Keystore file is to be used for signing placed in [**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/app` folder.
 
-> > **``**[**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/gradle.properties`
+> > [**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/gradle.properties`
 
 ```
 MYAPP_RELEASE_STORE_FILE=my-upload-key.keystore
@@ -44,7 +44,7 @@ MYAPP_RELEASE_KEY_ALIAS=hwrecog-key-alias
 MYAPP_RELEASE_KEY_PASSWORD=changeit
 ```
 
-> > **``**[**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/app/build.gradle`
+> > [**`$FRONTEND_FOLDER`**](generating-apk-from-source-code.md#source-code-references)`/SaralApp/android/app/build.gradle`
 
 **Note**: Make sure `signingConfig signingConfigs.release` the line is uncommented. Also set `enableSeparateBuildPerCPUArchitecture` flag to true to generate CPU architecture specific APKs. This will also reduce the size of the APK compared to universal APK.
 

@@ -40,7 +40,7 @@ In Android studio,open Logcat view at the bottom while running android applicati
 
 > Example: `storage/emulated/0/Android/data/com.saralapp/files/Download`
 
-``
+
 
 ## Capture scanned images from Android phone
 

@@ -95,4 +95,5 @@
 
 ***
 
-* [Saral-DaaS-Sandbox-User-Guide](saral-daas-sandbox-user-guide.md)
+* [Saral-DaaS-Sandbox-User-Guide](saral-daas-sandbox-user-guide/README.md)
+  * [Step-By-Step Guide to use Saral App](saral-daas-sandbox-user-guide/step-by-step-guide-to-use-saral-app.md)
