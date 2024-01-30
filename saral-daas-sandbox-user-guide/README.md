@@ -79,6 +79,7 @@ version: "2.4"
 services:
   sandbox:
     image: jonathanrogers/saral-backend:1.6.2
+    container_name: sandbox
     environment:
       - PROFILE=dev
       - PORT=3005
@@ -89,5 +90,17 @@ services:
 
     ports:
       - "3005:3005"
+```
+
+7\) To delete any old data from database run the following command in the VM where the sandbox app is installed
+
+```
+docker exec sandbox node ./data/import-data.js --delete
+```
+
+8\) ) To add golden data to the database run the following command in the VM where the sandbox app is installed
+
+```
+docker exec sandbox node ./data/import-data.js --import
 ```
 
