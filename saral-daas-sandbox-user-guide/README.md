@@ -18,7 +18,7 @@ Saral Mobile app apk
 
 2\) User Must have a valid AWS account
 
-3\) Template Layouts should be available with user. You can find the Template layout here&#x20;
+3\) Template Layouts should be available with user. You can find the supported sample Template layouts here. User is advised to take print outs of the same.&#x20;
 
 {% file src="../.gitbook/assets/Attendance-sheetLayout.pdf" %}
 Saral Attendance-Sheet Layout
@@ -27,4 +27,67 @@ Saral Attendance-Sheet Layout
 {% file src="../.gitbook/assets/Assesment sheet layout.pdf" %}
 Saral Assessment-Sheet Layout
 {% endfile %}
+
+4\) Download and install Mongo Compass for your OS (Windows, mac, Linux) from below link&#x20;
+
+{% embed url="https://www.mongodb.com/docs/compass/current/install/" %}
+Download and Install Compass
+{% endembed %}
+
+5\) Install docker using below details
+
+```
+#!/bin/bash
+
+# Update the package index
+sudo apt update
+
+# Install prerequisites for Docker
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+
+# Add Docker GPG key
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+# Add Docker repository
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Update the package index again (with Docker repository)
+sudo apt update
+
+# Install Docker
+sudo apt install -y docker-ce docker-ce-cli containerd.io
+
+# Add the current user to the docker group (to run Docker commands without sudo)
+sudo usermod -aG docker $USER
+
+# Install Docker Compose
+sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+# Print Docker and Docker Compose versions
+docker --version
+docker-compose --version
+```
+
+6\) Use below link from the public repository to download docker compose file.
+
+Below is the sample file for the reference. It is advisable to use latest available version from the public repository
+
+```
+version: "2.4"
+
+services:
+  sandbox:
+    image: jonathanrogers/saral-backend:1.6.2
+    environment:
+      - PROFILE=dev
+      - PORT=3005
+      - MONGODB_URL=mongodb://<your actual Mongo DB IP>:27017/saralv1newdb
+      - JWT_SECRET=SARALDATA_NODE
+      - MONGODB_POOL_SIZE=50
+      - MIN_MONGODB_POOL_SIZE=30
+
+    ports:
+      - "3005:3005"
+```
 
