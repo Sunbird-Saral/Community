@@ -34,7 +34,7 @@ Saral Assessment-Sheet Layout
 Download and Install Compass
 {% endembed %}
 
-5\) Install docker using below details
+5\) Install docker on Ubuntu Linux using below details
 
 ```
 #!/bin/bash
