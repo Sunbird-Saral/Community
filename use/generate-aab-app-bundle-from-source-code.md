@@ -32,7 +32,7 @@ description: Steps how to generate ABB from source code
 
 1. AAB Signing can be enabled using the below Gradle files. Make sure the Keystore file is to be used for signing placed in [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android/app` folder.
 
-> > **``**[**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android/gradle.properties`
+> > [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android/gradle.properties`
 
 ```
 MYAPP_RELEASE_STORE_FILE=my-upload-key.keystore
@@ -44,7 +44,7 @@ MYAPP_RELEASE_KEY_ALIAS=hwrecog-key-alias
 MYAPP_RELEASE_KEY_PASSWORD=changeit
 ```
 
-> > **``**[**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android/app/build.gradle`
+> > [**`$FRONTEND_FOLDER`**](generate-aab-app-bundle-from-source-code.md#source-code-references)`/SaralApp/android/app/build.gradle`
 
 Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
 
@@ -111,7 +111,7 @@ Note: Make sure `signingConfig signingConfigs.release` the line is uncommented.
 
 `jarsigner -verbose -verify ./app/build/outputs/apk/release/app-release.aab`
 
-``
+
 
 AAB file can't be used for installation and testing directly. Its for publishing to playstore. Once AAB file is generated , use below command to generate universal APK for installation and testing before publishing to Google play-store.
 

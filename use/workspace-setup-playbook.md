@@ -55,7 +55,7 @@ description: Developer Environment Setup - Playbook
 ## Backend Setup
 
 * Install node and MongoDB in your local machine.
-* From Saral release `v1.5.4` and above, please execute below commands from [$**BACKEND\_FOLDER**](workspace-setup-playbook.md#source-code-references) **** in a terminal.
+* From Saral release `v1.5.4` and above, please execute below commands from [$**BACKEND\_FOLDER**](workspace-setup-playbook.md#source-code-references) in a terminal.
 
 > > `cp ../../specs/v1.5/swagger-saral-maintenance.yaml ./src`
 
