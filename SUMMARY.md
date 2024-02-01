@@ -30,6 +30,7 @@
   * [Improved Low light Performance - Manual Edit](learn/features/Improved-low-light-performance-manual-edit.md)
   * [Vertical forms scanning support](learn/features/vertical-layout-scanning-support.md)
   * [Improve processing speed for big layouts](learn/features/chunk-process-large-forms.md)
+  * [Admissions Data Capture](learn/features/capture-admissions-record.md)
 * [Specifications](learn/specifications/README.md)
   * [Layout specification](learn/specifications/layout-specification.md)
   * [Backend API Swagger Doc](learn/specifications/backend-api-swagger-doc.md)
