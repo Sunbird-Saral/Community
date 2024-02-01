@@ -1,8 +1,22 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Step-By-Step Guide to use Saral
 
 1\) Scanning Documents
 
-* Login to Mobile App with the below Credentials
+* Login to Saral Mobile App with the below Credentials
 
 &#x20;       Username: u002
 
@@ -14,7 +28,7 @@
 * View scan documents to confirm scan details. User can edit scanned details
 * Upload scan data
 
-2\) Connect to Mongo DB using URL  ¨mongodb://\<your actual Mongo DB IP>:27017¨
+2\) Connect to Mongo DB using URL  ¨mongodb://<_**Insert your actual Mongo DB IP here**_>:27017¨
 
 * Explore the relevant collection to view your scanned data&#x20;
 

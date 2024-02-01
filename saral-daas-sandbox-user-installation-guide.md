@@ -4,7 +4,7 @@ description: >-
   to structured, digital formats.
 ---
 
-# Saral-DaaS-Sandbox-User-Guide
+# Saral-DaaS-Sandbox-User-Installation-Guide
 
 Using Saral results in extensive savings in terms of time and effort, when information from physical sources (such as paper) needs to be digitized and stored in a structured manner for analysis.
 
@@ -16,15 +16,15 @@ Using Saral results in extensive savings in terms of time and effort, when infor
 Saral Mobile app apk
 {% endembed %}
 
-2\) User Must have a valid AWS account
+2\) User Must have a valid AWS account.
 
 3\) Template Layouts should be available with user. You can find the supported sample Template layouts here. User is advised to take print outs of the same.&#x20;
 
-{% file src="../.gitbook/assets/Attendance-sheetLayout.pdf" %}
+{% file src=".gitbook/assets/Attendance-sheetLayout.pdf" %}
 Saral Attendance-Sheet Layout
 {% endfile %}
 
-{% file src="../.gitbook/assets/Assesment sheet layout.pdf" %}
+{% file src=".gitbook/assets/Assesment sheet layout.pdf" %}
 Saral Assessment-Sheet Layout
 {% endfile %}
 
@@ -71,7 +71,7 @@ docker-compose --version
 
 6\) Use below link from the public repository to download docker compose file.
 
-Below is the sample file for the reference. It is advisable to use latest available version from the public repository
+Below is the sample file for the reference only. It is advisable to use latest available version from the public repository link mentioned above.
 
 ```
 version: "2.4"
@@ -92,15 +92,12 @@ services:
       - "3005:3005"
 ```
 
-7\) To delete any old data from database run the following command in the VM where the sandbox app is installed
+7\) Use NGINX to setup Domain Name and SSL Certificate. Refer [here](https://docs.google.com/document/d/1Rz2nhyc\_8oy56fwVHTO18ZbBT2Tss-ii8SbvqeNFiEY/edit?usp=sharing) for installation guide.
 
-```
-docker exec sandbox node ./data/import-data.js --delete
-```
+8\) Cloud Infra provisioning requirement and costing
 
-8\) ) To add golden data to the database run the following command in the VM where the sandbox app is installed
+Please refer here for minimum infra required to be provisioned for Saral sand box and the costing associated with it.
 
-```
-docker exec sandbox node ./data/import-data.js --import
-```
+Once all above steps are completed, Saral will be ready to use.
 
+Refer [here](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/Le89Gzl6JNQ9inpB8sRg/\~/changes/174/step-by-step-guide-to-use-saral) to know how to use Saral.
