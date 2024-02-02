@@ -28,43 +28,63 @@ Saral Attendance-Sheet Layout
 Saral Assessment-Sheet Layout
 {% endfile %}
 
-4\) Download and install Mongo Compass for your OS (Windows, mac, Linux) from below link&#x20;
+4\) Download and install Mongo Db and Mongo Compass for your OS (Windows, mac, Linux) from below link&#x20;
 
 {% embed url="https://www.mongodb.com/docs/compass/current/install/" %}
 Download and Install Compass
 {% endembed %}
 
+```
+# To Import the public key used by the package management system run 
+sudo apt-get install gnupg curl
+
+# To import the MongoDB public GPG key from https://www.mongodb.org/static/pgp/server-7.0.asc, run the following command
+curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
+   sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
+   --dearmor
+   
+# To Create a list file for MongoDB run  
+touch /etc/apt/sources.list.d/mongodb-org-7.0.list
+
+# To add Mongo Repo to package manager run 
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+
+# To Reload local package database run
+sudo apt-get update
+
+#To Install the MongoDB packages run
+sudo apt-get install -y mongodb-org
+```
+
 5\) Install docker on Ubuntu Linux using below details
 
 ```
-#!/bin/bash
-
-# Update the package index
+# To Update the package index run
 sudo apt update
 
-# Install prerequisites for Docker
+# To Install prerequisites for Docker run
 sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
 
-# Add Docker GPG key
+# To Add Docker GPG key run
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
-# Add Docker repository
+# To Add Docker repository run
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-# Update the package index again (with Docker repository)
+# To Update the package index again (with Docker repository) run
 sudo apt update
 
-# Install Docker
+# To Install Docker run
 sudo apt install -y docker-ce docker-ce-cli containerd.io
 
-# Add the current user to the docker group (to run Docker commands without sudo)
+# To Add the current user to the docker group (to run Docker commands without sudo) run
 sudo usermod -aG docker $USER
 
-# Install Docker Compose
+# To Install Docker Compose run
 sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-# Print Docker and Docker Compose versions
+# To Print Docker and Docker Compose versions run
 docker --version
 docker-compose --version
 ```
