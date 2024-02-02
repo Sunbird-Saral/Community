@@ -44,7 +44,7 @@ curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
    --dearmor
    
 # To Create a list file for MongoDB run  
-touch /etc/apt/sources.list.d/mongodb-org-7.0.list
+sudo touch /etc/apt/sources.list.d/mongodb-org-7.0.list
 
 # To add Mongo Repo to package manager run 
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
