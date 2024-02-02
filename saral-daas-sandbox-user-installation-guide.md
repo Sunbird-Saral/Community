@@ -69,13 +69,10 @@ docker --version
 docker-compose --version
 ```
 
-6\) Use below link from the public repository to download docker compose file.
-
-Below is the sample file for the reference only. It is advisable to use latest available version from the public repository link mentioned above.
+6\) Create a docker-compose.yml file and paste below code snippet in it. Please make sure to replace your Mongo DB instance IP in the below code snippet.
 
 ```
-version: "2.4"
-
+version: '2.4'
 services:
   sandbox:
     image: jonathanrogers/saral-backend:1.6.2
@@ -83,7 +80,7 @@ services:
     environment:
       - PROFILE=dev
       - PORT=3005
-      - MONGODB_URL=mongodb://<your actual Mongo DB IP>:27017/saralv1newdb
+      - MONGODB_URL=mongodb://<Insert your actual Mongo DB IP here>:27017/saralv1newdb
       - JWT_SECRET=SARALDATA_NODE
       - MONGODB_POOL_SIZE=50
       - MIN_MONGODB_POOL_SIZE=30
@@ -92,12 +89,18 @@ services:
       - "3005:3005"
 ```
 
+To execute docker compose file, please execute below mention command in your VM terminal
+
+[**`sudo docker compose up -d`**](#user-content-fn-1)[^1]
+
 7\) Use NGINX to setup Domain Name and SSL Certificate. Refer [here](https://docs.google.com/document/d/1Rz2nhyc\_8oy56fwVHTO18ZbBT2Tss-ii8SbvqeNFiEY/edit?usp=sharing) for installation guide.
 
 8\) Cloud Infra provisioning requirement and costing
 
-Please refer here for minimum infra required to be provisioned for Saral sand box and the costing associated with it.
+Please refer [here](https://docs.google.com/spreadsheets/d/1IrQqBEMG\_phASHvORvkQ8qRl30hndvj4yBsDCl6eoho/edit?usp=sharing) for minimum infra required to be provisioned for Saral sand box and the monthly costing associated with it.
 
 Once all above steps are completed, Saral will be ready to use.
 
 Refer [here](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/Le89Gzl6JNQ9inpB8sRg/\~/changes/174/step-by-step-guide-to-use-saral) to know how to use Saral.
+
+[^1]: 

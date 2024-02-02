@@ -8,13 +8,13 @@ This guide is created to help teams to maintain sandbox in ready to use clean co
 
 During Demo large amount of sample data will be created which is no use post demo and to other demo users. Hence, it becomes necessary to clean such test data.  This is 2 step process where in first step current data will be deleted and in next step, fresh test data will be loaded for demo purposes. Please use below commands in sequence for clean up of data.
 
-1. &#x20;To delete any old data from database run the following command in the VM where the sandbox app is installed
+1. &#x20;To delete any old data from database run the following command in the VM where the sandbox app is installed. Execute below command in the terminal of your VM where docker is installed.
 
 ```
 docker exec sandbox node ./data/import-data.js --delete
 ```
 
-2. &#x20;To add golden data to the database run the following command in the VM where the sandbox app is installed
+2. &#x20;To add golden data to the database run the following command in the VM where the sandbox app is installed. Execute below command in the terminal of your VM where docker is installed.
 
 ```
 docker exec sandbox node ./data/import-data.js --import
