@@ -22,7 +22,9 @@ docker exec sandbox node ./data/import-data.js --import
 
 2. Logging and Monitoring
 
-Saral application stack has been enabled with cloud watch for logging and monitoring purpose. Logs are enabled by default for the stack.
+Saral application stack has been enabled with logging and monitoring. Click [here](https://tekdi-docs.netlify.app/docs/learning/grafana/) for details on installation and setup guide
+
+3. Click [here](https://docs.google.com/document/d/1T0x8RWGHxG578rytLDTivA1bducZYwUTl\_VYwYLmLcs/edit#heading=h.q7kutkgpepnj) for troubleshooting guide on Docker and Docker Compose. This will also lists steps to check connection issue between Mongo DB and Backend Service.
 
 
 
