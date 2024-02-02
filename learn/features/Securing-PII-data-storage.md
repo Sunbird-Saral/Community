@@ -9,9 +9,11 @@ Saral App supports enabling PII data encryption from `v1.6.3` release which is a
 The admissions record captures sensitive PII data of a student. It is necessary to manage data security.
 
 Saral reference backend provides data encryption feature for Admissions record which can be configured at field level(each and every column/key in admissions record). 
-Currently supports 4 different levels of encryption termed as:
+Currently supports 6 different levels of encryption termed as:
 * ENCRYPTANDHASH - does encryption of data first and then hashing of encrypted data for added security
 * ENCRYPT - does encryption of data only
+* HASH - does hashing of data only
+* MASK - does masking of data only
 * ENCRYPTANDMASK - does encryption of data first and then masking of encrypted data for added security
 * ENCRYPTARRAY - does encryption of array type of data
 
@@ -28,7 +30,6 @@ By default the reference solution implements admissions record encryption as sho
 ```
 "encryptionSchemas": {
       "admissions": {
-       "admissionNumber": "ENCRYPTANDHASH",
        "studentAadharNumber": "ENCRYPTANDMASK",
        "studentFirstname": "ENCRYPT",
        "studentSurname": "ENCRYPT",
