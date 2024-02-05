@@ -2,8 +2,10 @@
 
 * [Sunbird Saral Overview](README.md)
 * [Saral Quick Guide](saral-adaptation/saral-quick-guide.md)
-* [Saral Implementation Manual](https://docs.google.com/document/d/1SMV2VRhOpEB1n8foHdK70X1--KSI0CPl/edit?usp=share\_link\&ouid=114303898945073408189\&rtpof=true\&sd=true)
-* [Saral Transformation Story](https://docs.google.com/document/d/1lcOjxUIb3vmQTBI8cq9xpAIt-M8e2d9z/edit?usp=share\_link\&ouid=114303898945073408189\&rtpof=true\&sd=true)
+* Saral Implementation Manual
+   * OMR led scanning - [Assessments](https://docs.google.com/document/d/1SMV2VRhOpEB1n8foHdK70X1--KSI0CPl/edit?usp=share_link&ouid=114303898945073408189&rtpof=true&sd=true)
+   * OCR led scanning - [Admissions](https://docs.google.com/document/d/1shNNTJ9b9XLf4nO69DB5Q9syXynm4Odufb1kmgkfhJs/edit?usp=sharing)
+* [Saral Transformation Story](https://docs.google.com/document/d/1lcOjxUIb3vmQTBI8cq9xpAIt-M8e2d9z/edit?usp=share_link&ouid=114303898945073408189&rtpof=true&sd=true)
 
 ## LEARN
 
@@ -26,6 +28,10 @@
   * [Firebase Analytics and Crashlytics](learn/features/firebase-analytics-and-crashlytics.md)
   * [ML model deployment using Firebase](learn/features/ml-model-deployment-using-firebase.md)
   * [Improved Low light Performance - Manual Edit](learn/features/Improved-low-light-performance-manual-edit.md)
+  * [Vertical Forms Scanning Support](learn/features/vertical-layout-scanning-support.md)
+  * [Improve Processing Speed for big layouts](learn/features/chunk-process-large-forms.md)
+  * [Admissions Data Capture](learn/features/capture-admissions-record.md)
+  * [Securing PII Data Capture - Admissions](learn/features/Securing-PII-data-storage.md)
 * [Specifications](learn/specifications/README.md)
   * [Layout specification](learn/specifications/layout-specification.md)
   * [Backend API Swagger Doc](learn/specifications/backend-api-swagger-doc.md)
