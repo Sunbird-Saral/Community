@@ -1,6 +1,6 @@
 # Vertical layout scan
 
-Saral App supports Vertical page(potrait) layouts from `v1.6.3` release. [layout-specification.md](../specifications/layout-specification.md "mention") supports adding `verticalScanLayout` element to true/false to indicate if layout need to be scanned vertically(potrait mode).This support is added to `SaraSDK`.&#x20;
+Saral App supports Vertical page(potrait) layouts from `v1.7.0` release. [layout-specification.md](../specifications/layout-specification.md "mention") supports adding `verticalScanLayout` element to true/false to indicate if layout need to be scanned vertically(potrait mode).This support is added to `SaraSDK`.&#x20;
 
 ![](../../.gitbook/assets/vertical-scan-layout.png)
 

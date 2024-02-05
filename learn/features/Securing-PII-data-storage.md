@@ -4,7 +4,7 @@ description: Saral supports handling secure storage of PII data by providing con
 
 # Configurable field encryption of collection schema(ex: admissions) with different levels
 
-Saral App supports enabling PII data encryption from `v1.6.3` release which is added to admissions usecase.
+Saral App supports enabling PII data encryption from `v1.7.0` release which is added to admissions usecase.
 
 The admissions record captures sensitive PII data of a student. It is necessary to manage data security.
 
