@@ -20,6 +20,28 @@ Saral Mobile app apk
 
 3\) Template Layouts should be available with user. You can find the supported sample Template layouts here. User is advised to take print outs of the same.&#x20;
 
+Latest published versions of all layouts will be available at below mentioned location.
+
+[https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/docs/layout-design/Design](https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/docs/layout-design/Design)
+
+
+
+{% file src=".gitbook/assets/admissions-1s-data-capture-page-1.pdf" %}
+Admission Layout - Page 1
+{% endfile %}
+
+{% file src=".gitbook/assets/admissions-1s-data-capture-page-2.pdf" %}
+Admission Layout - Page 2
+{% endfile %}
+
+{% file src=".gitbook/assets/BENEFICIARY & Growth Layout.pdf" %}
+Beneficiary & Growth Layout
+{% endfile %}
+
+{% file src=".gitbook/assets/Book-Distribution-Layout.pdf" %}
+Book Distribution Layout
+{% endfile %}
+
 {% file src=".gitbook/assets/Attendance-sheetLayout.pdf" %}
 Saral Attendance-Sheet Layout
 {% endfile %}
@@ -27,6 +49,10 @@ Saral Attendance-Sheet Layout
 {% file src=".gitbook/assets/Assesment sheet layout.pdf" %}
 Saral Assessment-Sheet Layout
 {% endfile %}
+
+Along with template files, ROI Json file are available at below location.
+
+[https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/v1.0/backend/data/layout](https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/v1.0/backend/data/layout)
 
 4\) Download and install Mongo Db and Mongo Compass for your OS (Windows, mac, Linux) from below link&#x20;
 

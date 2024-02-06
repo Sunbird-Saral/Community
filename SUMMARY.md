@@ -2,10 +2,10 @@
 
 * [Sunbird Saral Overview](README.md)
 * [Saral Quick Guide](saral-adaptation/saral-quick-guide.md)
-* Saral Implementation Manual
-   * [OMR led scanning - Assessments](https://docs.google.com/document/d/1SMV2VRhOpEB1n8foHdK70X1--KSI0CPl/edit?usp=share_link&ouid=114303898945073408189&rtpof=true&sd=true)
-   * [OCR led scanning - Admissions](https://docs.google.com/document/d/1shNNTJ9b9XLf4nO69DB5Q9syXynm4Odufb1kmgkfhJs/edit?usp=sharing)
-* [Saral Transformation Story](https://docs.google.com/document/d/1lcOjxUIb3vmQTBI8cq9xpAIt-M8e2d9z/edit?usp=share_link&ouid=114303898945073408189&rtpof=true&sd=true)
+* [Saral Implementation Manual](saral-implementation-manual/README.md)
+  * [OMR led scanning - Assessments](https://docs.google.com/document/d/1SMV2VRhOpEB1n8foHdK70X1--KSI0CPl/edit?usp=share\_link\&ouid=114303898945073408189\&rtpof=true\&sd=true)
+  * [OCR led scanning - Admissions](https://docs.google.com/document/d/1shNNTJ9b9XLf4nO69DB5Q9syXynm4Odufb1kmgkfhJs/edit?usp=sharing)
+* [Saral Transformation Story](https://docs.google.com/document/d/1lcOjxUIb3vmQTBI8cq9xpAIt-M8e2d9z/edit?usp=share\_link\&ouid=114303898945073408189\&rtpof=true\&sd=true)
 
 ## LEARN
 
