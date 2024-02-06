@@ -12,9 +12,7 @@ Using Saral results in extensive savings in terms of time and effort, when infor
 
 1\) Download App from Play Store (Saral-App). Alternatively User can download the App from the below mentioned link.
 
-{% embed url="https://tarento-my.sharepoint.com/:u:/p/rashmi_ankalgi/Efu7Dq-3SadImhh3iUF49vgBXaZq39AoJoH4KiylEnRyLQ" %}
-Saral Mobile app apk
-{% endembed %}
+[https://drive.google.com/file/d/1Y4UuA8euplEbGYfsh1\_PT8IGx\_OSFZDW/view](https://drive.google.com/file/d/1Y4UuA8euplEbGYfsh1\_PT8IGx\_OSFZDW/view)
 
 2\) User Must have a valid AWS account.
 
