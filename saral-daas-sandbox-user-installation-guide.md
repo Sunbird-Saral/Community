@@ -10,11 +10,9 @@ Using Saral results in extensive savings in terms of time and effort, when infor
 
 ## Prerequisites
 
-1\) Download App from Play Store (Saral-App). Alternatively User can download the App from the below mentioned link.
+1\) User Must have a valid AWS account.
 
-{% embed url="https://drive.google.com/file/d/1Y4UuA8euplEbGYfsh1_PT8IGx_OSFZDW/view" %}
-
-2\) User Must have a valid AWS account.
+2\) Saral mobile App APK can be generated from source code. Process for the same can be found [here](https://saral.sunbird.org/use/generating-apk-from-source-code). Provision has been made such that adopters can create their own branding. Refer [here](https://saral.sunbird.org/use/update-base\_url-apkurl-in-apk) for details on how to update base URL.  For branding changes refer [here](https://saral.sunbird.org/use/generate-aab-app-bundle-from-source-code).&#x20;
 
 3\) Template Layouts should be available with user. You can find the supported sample Template layouts here. User is advised to take print outs of the same.&#x20;
 
@@ -52,7 +50,7 @@ Along with template files, ROI Json file are available at below location.
 
 [https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/v1.0/backend/data/layout](https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/v1.0/backend/data/layout)
 
-4\) Download and install Mongo Db and Mongo Compass for your OS (Windows, mac, Linux) from below link&#x20;
+4\) Download and install Mongo DB and Mongo Compass for your OS (Windows, mac, Linux) from below link&#x20;
 
 {% embed url="https://www.mongodb.com/docs/compass/current/install/" %}
 Download and Install Compass
@@ -145,6 +143,6 @@ Please refer [here](https://docs.google.com/spreadsheets/d/1IrQqBEMG\_phASHvORvk
 
 Once all above steps are completed, Saral will be ready to use.
 
-Refer [here](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/Le89Gzl6JNQ9inpB8sRg/\~/changes/174/step-by-step-guide-to-use-saral) to know how to use Saral.
+Refer [here](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/Le89Gzl6JNQ9inpB8sRg/\~/changes/174/step-by-step-guide-to-use-saral)[ ](https://saral.sunbird.org/step-by-step-guide-to-use-saral)to know how to use Saral.
 
 [^1]: 
