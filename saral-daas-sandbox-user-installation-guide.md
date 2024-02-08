@@ -4,53 +4,33 @@ description: >-
   to structured, digital formats.
 ---
 
-# Saral-DaaS-Sandbox-User-Installation-Guide
+# Saral Dev-Environment User Installation Guide
 
-Using Saral results in extensive savings in terms of time and effort, when information from physical sources (such as paper) needs to be digitized and stored in a structured manner for analysis.
+Using Saral results in extensive savings in terms of time and effort, when information from physical sources (such as paper) needs to be digitised and stored in a structured manner for analysis.
 
 ## Prerequisites
 
-1\) User Must have a valid AWS account.
+1\) Since, backend infra for Saral is hosted on AWS, user Must have a valid AWS account.
 
-2\) Saral mobile App APK can be generated from source code. Process for the same can be found [here](https://saral.sunbird.org/use/generating-apk-from-source-code). Provision has been made such that adopters can create their own branding. Refer [here](https://saral.sunbird.org/use/update-base\_url-apkurl-in-apk) for details on how to update base URL.  For branding changes refer [here](https://saral.sunbird.org/use/generate-aab-app-bundle-from-source-code).&#x20;
+2\) Saral is a mobile application and its APK can be generated from source code. Process for the same can be found [here](https://saral.sunbird.org/use/generating-apk-from-source-code). Provision has been made such that adopters can create their own configurations for Saral application. Refer [here](https://saral.sunbird.org/use/update-base\_url-apkurl-in-apk) and [here](https://saral.sunbird.org/use/generate-aab-app-bundle-from-source-code) to know about detail guide for the same.&#x20;
 
-3\) Template Layouts should be available with user. You can find the supported sample Template layouts here. User is advised to take print outs of the same.&#x20;
-
-Latest published versions of all layouts will be available at below mentioned location.
-
-[https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/docs/layout-design/Design](https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/docs/layout-design/Design)
-
-
-
-{% file src=".gitbook/assets/admissions-1s-data-capture-page-1.pdf" %}
-Admission Layout - Page 1
-{% endfile %}
-
-{% file src=".gitbook/assets/admissions-1s-data-capture-page-2.pdf" %}
-Admission Layout - Page 2
-{% endfile %}
-
-{% file src=".gitbook/assets/BENEFICIARY & Growth Layout.pdf" %}
-Beneficiary & Growth Layout
-{% endfile %}
-
-{% file src=".gitbook/assets/Book-Distribution-Layout.pdf" %}
-Book Distribution Layout
-{% endfile %}
-
-{% file src=".gitbook/assets/Attendance-sheetLayout.pdf" %}
-Saral Attendance-Sheet Layout
-{% endfile %}
+3\) Saral app supports pre-configured template layouts. User is advised to take print outs of the same for their use. Current application version supports Assessment and layout for the same can be found attached below.&#x20;
 
 {% file src=".gitbook/assets/Assesment sheet layout.pdf" %}
 Saral Assessment-Sheet Layout
 {% endfile %}
 
+Latest published versions of all layouts will be available at below mentioned location.
+
+{% embed url="https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/docs/layout-design/Design" %}
+
 Along with template files, ROI Json file are available at below location.
 
-[https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/v1.0/backend/data/layout](https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/v1.0/backend/data/layout)
+{% embed url="https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/v1.0/backend/data/layout" %}
 
-4\) Download and install Mongo DB and Mongo Compass for your OS (Windows, mac, Linux) from below link&#x20;
+All layouts are configurable. Please refer [here](https://saral.sunbird.org/use/layout-configuration) to configure your own layout and create corresponding ROI file for it.
+
+4\) Download and install MongoDB and Mongo Compass for your OS (Windows, mac, Linux) from below link&#x20;
 
 {% embed url="https://www.mongodb.com/docs/compass/current/install/" %}
 Download and Install Compass
@@ -78,7 +58,7 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
 
-5\) Install docker on Ubuntu Linux using below details
+5\) Saral user docker for containerisation and hence, to Install docker on Ubuntu Linux use below details
 
 ```
 # To Update the package index run
@@ -111,7 +91,7 @@ docker --version
 docker-compose --version
 ```
 
-6\) Create a docker-compose.yml file and paste below code snippet in it. Please make sure to replace your Mongo DB instance IP in the below code snippet.
+6\) Create a docker-compose.yml file and paste below code snippet in it. Please make sure to replace your MongoDB instance IP in the below code snippet.
 
 ```
 version: '2.4'
@@ -143,6 +123,8 @@ Please refer [here](https://docs.google.com/spreadsheets/d/1IrQqBEMG\_phASHvORvk
 
 Once all above steps are completed, Saral will be ready to use.
 
-Refer [here](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/Le89Gzl6JNQ9inpB8sRg/\~/changes/174/step-by-step-guide-to-use-saral)[ ](https://saral.sunbird.org/step-by-step-guide-to-use-saral)to know how to use Saral.
+Refer [here](https://saral.sunbird.org/saral-implementation-manual)[ ](https://saral.sunbird.org/step-by-step-guide-to-use-saral)to know more about implementation details of Saral.
+
+Refer [here](https://saral.sunbird.org/step-by-step-guide-to-use-saral) to know about user User Experience of Saral.
 
 [^1]: 
