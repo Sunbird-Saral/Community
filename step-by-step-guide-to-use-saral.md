@@ -56,6 +56,7 @@ Alternatively, latest published versions of all layouts will be available at bel
 
 4\) Once data is submitted, it is digitised into structured format and saved into backend databse. User can view structured digital data by connecting to database using below mentioned details.
 
+* Download and install MongoDB Compass using details mentioned [here](https://www.mongodb.com/docs/compass/current/install/).&#x20;
 * Connect to MongoDB databse using URL  ¨mongodb://3.110.36.135:27017¨
 * Once connected, user can view digitised data
 
