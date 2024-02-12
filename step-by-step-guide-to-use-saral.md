@@ -33,7 +33,7 @@ Saral Assessment-Sheet Layout
 
 Alternatively, latest published versions of all layouts will be available at below mentioned location.
 
-[https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/docs/layout-design/Design](https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/docs/layout-design/Design)
+{% embed url="https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/docs/layout-design/Design" %}
 
 3\) Once user is ready with above mobile application and properly filled print outs of the mark-sheets, user is ready to convert their physical data into structured digital data.
 
@@ -54,10 +54,10 @@ Alternatively, latest published versions of all layouts will be available at bel
 * You can verify your scan sheets and edit them if required before submitting all your data.
 * Click on Submit to complete the process.
 
-4\) Once data is submitted, it is digitised into structured format and saved into backend databse. User can view structured digital data by connecting to database using below mentioned details.
+4\) Once data is submitted, it is digitised into structured format and saved into back-end database. User can view structured digital data by connecting to database using below mentioned details.
 
 * Download and install MongoDB Compass using details mentioned [here](https://www.mongodb.com/docs/compass/current/install/).&#x20;
-* Connect to MongoDB databse using URL  ¨mongodb://3.110.36.135:27017¨
+* Connect to MongoDB database using URL  ¨mongodb://3.110.36.135:27017¨
 * Once connected, user can view digitised data
 
 User can refer [here](https://saral.sunbird.org/learn/videos/feature-explanation) to know more about Saral features
