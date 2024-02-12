@@ -14,6 +14,8 @@ Using Saral results in extensive savings in terms of time and effort, when infor
 
 2\) Saral is a mobile application and its APK can be generated from source code. Process for the same can be found [here](https://saral.sunbird.org/use/generating-apk-from-source-code). Provision has been made such that adopters can create their own configurations for Saral application. Refer [here](https://saral.sunbird.org/use/update-base\_url-apkurl-in-apk) and [here](https://saral.sunbird.org/use/generate-aab-app-bundle-from-source-code) to know about detail guide for the same.&#x20;
 
+User can publish their own configured saral app on Google play sore. Please refer [here](https://saral.sunbird.org/use/google-play-store-app-publish-recommendations) to know process to set it up.
+
 3\) Saral app supports pre-configured template layouts. User is advised to take print outs of the same for their use. Current application version supports Assessment and layout for the same can be found attached below.&#x20;
 
 {% file src=".gitbook/assets/Assesment sheet layout.pdf" %}
