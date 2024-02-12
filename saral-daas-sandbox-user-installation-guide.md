@@ -117,7 +117,13 @@ To execute docker compose file, please execute below mention command in your VM 
 
 7\) Use NGINX to setup Domain Name and SSL Certificate. Refer [here](https://docs.google.com/document/d/1Rz2nhyc\_8oy56fwVHTO18ZbBT2Tss-ii8SbvqeNFiEY/edit?usp=sharing) for installation guide.
 
-8\) Cloud Infra provisioning requirement and costing
+8\) Postman Collections
+
+{% file src=".gitbook/assets/saral-frontend.postman_collection.json" %}
+Postman Collections
+{% endfile %}
+
+9\) Cloud Infra provisioning requirement and costing
 
 Please refer [here](https://docs.google.com/spreadsheets/d/1IrQqBEMG\_phASHvORvkQ8qRl30hndvj4yBsDCl6eoho/edit?usp=sharing) for minimum infra required to be provisioned for Saral sand box and the monthly costing associated with it.
 
