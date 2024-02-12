@@ -121,6 +121,8 @@ To execute docker compose file, please execute below mention command in your VM 
 
 Please refer [here](https://docs.google.com/spreadsheets/d/1IrQqBEMG\_phASHvORvkQ8qRl30hndvj4yBsDCl6eoho/edit?usp=sharing) for minimum infra required to be provisioned for Saral sand box and the monthly costing associated with it.
 
+Please note, there is need to whitelist server IP/domain for application to work. Please refer [here](https://docs.google.com/document/d/1pLTSwwak-u9CGl1IMyFbeFmgHH69kG\_e/edit#heading=h.3znysh7) to understand steps for the whitelisting
+
 Once all above steps are completed, Saral will be ready to use.
 
 Refer [here](https://saral.sunbird.org/saral-implementation-manual)[ ](https://saral.sunbird.org/step-by-step-guide-to-use-saral)to know more about implementation details of Saral.
