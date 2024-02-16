@@ -57,8 +57,6 @@ sudo ./aws/instal
 3. Download and extract from the following file
 
 {% file src="../.gitbook/assets/Saral-Automation.zip" %}
-Automation script
-{% endfile %}
 
 Open the extracted folder in terminal and type the following commands
 
@@ -80,7 +78,13 @@ To execute the file type the following command
 ./install-saral.sh
 ```
 
-Once the entire process is run you should have the entire Saral Infra setup on you AWS account  Infra structure Includes the following components
+You will be prompted to enter the AWS Document DB **Username** and **Password**
+
+enter the details and also save those with you
+
+Once the entire process is run  on the same terminal window you should see outputs of the Document db host-name copy and keep it
+
+you should have the entire Saral Infra setup on you AWS account  Infra structure Includes the following components
 
 ```
 1> EKS cluster with fargate Nodes
