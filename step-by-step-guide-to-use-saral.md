@@ -35,7 +35,11 @@ Alternatively, latest published versions of all layouts will be available at bel
 
 {% embed url="https://github.com/Sunbird-Saral/Project-Saral/tree/v1-develop/docs/layout-design/Design" %}
 
-3\) Once user is ready with above mobile application and properly filled print outs of the mark-sheets, user is ready to convert their physical data into structured digital data.
+Also layout specification and configuration as well as design guidelines for ROI can be found [here](https://saral.sunbird.org/learn/specifications/layout-specification) and [here](https://saral.sunbird.org/use/layout-configuration) and [here](https://saral.sunbird.org/use/layout-design-guidelines).
+
+3\) Once user is ready with above mobile application and properly filled print outs, user is ready to convert their physical data into structured digital data.
+
+Saral has capability to support multiple OCR and OMR based forms digitisation. Below is the workflow guide for Assessments. Similar guide for Admission forms can be found [here](https://saral.sunbird.org/learn/features/capture-admissions-record).
 
 * Open Saral App on your mobile device and login to Saral Mobile App with the below Credentials
 
@@ -61,6 +65,8 @@ Alternatively, latest published versions of all layouts will be available at bel
 * Once connected, user can view digitised data
 
 User can refer [here](https://saral.sunbird.org/learn/videos/feature-explanation) to know more about Saral features
+
+User can refer here for Saral app [usage guidelines](https://saral.sunbird.org/use/saral-app-usage-guidelines).
 
 
 
