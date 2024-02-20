@@ -104,6 +104,8 @@
 
 * [Saral Production-Environment User Installation Guide](saral-production-user-installation-guide/README.md)
   * [Manual Installation for Prod](saral-production-user-installation-guide/manual-installation-for-prod.md)
+  * [Cloud Providers](saral-production-user-installation-guide/cloud-providers/README.md)
+    * [AWS](saral-production-user-installation-guide/cloud-providers/aws.md)
   * [Automating the Infra provisioning and install of the Saral application](saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application.md)
 * [Saral Dev-Environment User Installation Guide](saral-dev-user-installation-guide.md)
 * [Maintenance Guide for Saral Sand Box](maintenance-guide-for-saral-sand-box.md)
