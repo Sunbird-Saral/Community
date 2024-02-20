@@ -126,7 +126,7 @@ This command will deploy the application to your Kubernetes cluster using the va
 helm install saral-backend ./saral-backend-chart
 ```
 
-5\. Verify the deployment by checking the status of the pods.
+Verify the deployment by checking the status of the pods.
 
 ```bash
 kubectl get pods
