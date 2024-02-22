@@ -16,9 +16,11 @@ Using Saral results in extensive savings in terms of time and effort, when infor
 
 User can publish their own configured saral app on Google play sore. Please refer [here](https://saral.sunbird.org/use/google-play-store-app-publish-recommendations) to know process to set it up.
 
+Saral provides facility to pull varied analytical reports using Firebase Application. Please refer [here](https://saral.sunbird.org/use/firebase-setup-for-tflite-model-deployment) to know process to set Firebase account and configure it. Once Firebase account has been setup, refer [here](https://saral.sunbird.org/use/firebase-setup-for-saral-app-telemetry) to konw how to update it in source code. Please note, mobile APK needs to be rebuild for changes to get reflected.
+
 3\) Saral app supports pre-configured template layouts. User is advised to take print outs of the same for their use. Current application version supports Assessment and layout for the same can be found attached below.&#x20;
 
-{% file src=".gitbook/assets/Assesment sheet layout.pdf" %}
+{% file src="../.gitbook/assets/Assesment sheet layout.pdf" %}
 Saral Assessment-Sheet Layout
 {% endfile %}
 
@@ -121,7 +123,7 @@ To execute docker compose file, please execute below mention command in your VM 
 
 8\) Postman Collections
 
-{% file src=".gitbook/assets/saral-frontend.postman_collection.json" %}
+{% file src="../.gitbook/assets/saral-frontend.postman_collection.json" %}
 Postman Collections
 {% endfile %}
 
