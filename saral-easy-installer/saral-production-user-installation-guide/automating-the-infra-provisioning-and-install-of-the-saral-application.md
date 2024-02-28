@@ -4,7 +4,7 @@
 
 1. Download and extract from the following file
 
-{% file src="../.gitbook/assets/Saral-Automation.zip" %}
+{% file src="../../.gitbook/assets/Saral-Automation.zip" %}
 
 Open the extracted folder in terminal and type the following commands
 
@@ -62,13 +62,7 @@ c.  under ingress->certificateARN-> fill the certificate arn that you will get f
 
 Open the helm folder in a terminal window and run the following&#x20;
 
-To uninstall the `saral-backend` deployment using Helm, execute the following command
-
-```
-helm uninstall saral-backend
-```
-
-This command will deploy the application to your Kubernetes cluster using the values you have specified in the values.yml file
+Below command will deploy the application to your Kubernetes cluster using the values you have specified in the values.yml file
 
 ```
 helm install saral-backend ./saral-backend-chart
@@ -81,4 +75,10 @@ kubectl get pods
 ```
 
 You should see the pods associated with your deployment running successfully
+
+To uninstall the `saral-backend` deployment using Helm, execute the following command
+
+```
+helm uninstall saral-backend
+```
 

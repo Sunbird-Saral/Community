@@ -102,11 +102,12 @@
 
 ***
 
-* [Saral Production-Environment User Installation Guide](saral-production-user-installation-guide/README.md)
-  * [Manual Installation for Prod](saral-production-user-installation-guide/manual-installation-for-prod.md)
-  * [Cloud Providers](saral-production-user-installation-guide/cloud-providers/README.md)
-    * [AWS](saral-production-user-installation-guide/cloud-providers/aws.md)
-  * [Automating the Infra provisioning and install of the Saral application](saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application.md)
-* [Saral Dev-Environment User Installation Guide](saral-dev-user-installation-guide.md)
-* [Maintenance Guide for Saral Sand Box](maintenance-guide-for-saral-sand-box.md)
-* [User Experience Guide for Saral](step-by-step-guide-to-use-saral.md)
+* [Saral Easy Installer](saral-easy-installer/README.md)
+  * [Saral Dev-Environment User Installation Guide](saral-easy-installer/saral-dev-user-installation-guide.md)
+  * [Maintenance Guide for Saral Sand Box](saral-easy-installer/maintenance-guide-for-saral-sand-box.md)
+  * [User Experience Guide for Saral](saral-easy-installer/step-by-step-guide-to-use-saral.md)
+  * [Saral Production-Environment User Installation Guide](saral-easy-installer/saral-production-user-installation-guide/README.md)
+    * [Manual Installation for Prod](saral-easy-installer/saral-production-user-installation-guide/manual-installation-for-prod.md)
+    * [Cloud Providers](saral-easy-installer/saral-production-user-installation-guide/cloud-providers/README.md)
+      * [AWS](saral-easy-installer/saral-production-user-installation-guide/cloud-providers/aws.md)
+    * [Automating the Infra provisioning and install of the Saral application](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application.md)
