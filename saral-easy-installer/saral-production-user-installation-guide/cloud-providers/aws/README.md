@@ -54,4 +54,4 @@ sudo ./aws/instal
     ```
 
     Enter your AWS Access Key ID, Secret Access Key, region, and output format when prompted.
-3. Once above completed pls refere to [here](../automating-the-infra-provisioning-and-install-of-the-saral-application.md)
+3. Once above completed pls refere to [here](../../automating-the-infra-provisioning-and-install-of-the-saral-application.md)

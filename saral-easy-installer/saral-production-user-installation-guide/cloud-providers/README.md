@@ -14,7 +14,7 @@ layout:
 
 # Cloud Providers
 
-[AWS](aws.md)
+[AWS](aws/)
 
 
 
