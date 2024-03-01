@@ -112,3 +112,6 @@
       * [AWS](saral-easy-installer/saral-production-user-installation-guide/cloud-providers/aws/README.md)
         * [Monitoring Stack](saral-easy-installer/saral-production-user-installation-guide/cloud-providers/aws/monitoring-stack.md)
     * [Automating the Infra provisioning and install of the Saral application](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application.md)
+  * [Reference Documents](saral-easy-installer/reference-documents/README.md)
+    * [Page 1](saral-easy-installer/reference-documents/page-1.md)
+    * [Sheet1](saral-easy-installer/reference-documents/sheet1.md)
