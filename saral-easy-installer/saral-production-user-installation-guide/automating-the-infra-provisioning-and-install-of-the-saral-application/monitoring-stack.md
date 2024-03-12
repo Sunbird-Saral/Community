@@ -2,7 +2,9 @@
 
 To install Monitoring Stack to the EKS server ie install Prometheus and Grafana Follow
 
-1>  Rerun the following file
+1>  Rerun the following file located in the "Saral-Automation" folder previously downloaded from&#x20;
+
+{% embed url="https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/Le89Gzl6JNQ9inpB8sRg/~/changes/213/saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application" %}
 
 ```
 ./install-saral.sh
