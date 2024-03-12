@@ -20,7 +20,7 @@ Saral provides facility to pull varied analytical reports using Firebase Applica
 
 3\) Saral app supports pre-configured template layouts. User is advised to take print outs of the same for their use. Current application version supports Assessment and layout for the same can be found attached below.&#x20;
 
-{% file src="../.gitbook/assets/Assesment sheet layout.pdf" %}
+{% file src="../../.gitbook/assets/Assesment sheet layout.pdf" %}
 Saral Assessment-Sheet Layout
 {% endfile %}
 
@@ -123,13 +123,15 @@ To execute docker compose file, please execute below mention command in your VM 
 
 8\) Postman Collections
 
-{% file src="../.gitbook/assets/saral-frontend.postman_collection.json" %}
+{% file src="../../.gitbook/assets/saral-frontend.postman_collection.json" %}
 Postman Collections
 {% endfile %}
 
 9\) Cloud Infra provisioning requirement and costing
 
-Please refer [here](https://docs.google.com/spreadsheets/d/1IrQqBEMG\_phASHvORvkQ8qRl30hndvj4yBsDCl6eoho/edit?usp=sharing) for minimum infra required to be provisioned for Saral sand box and the monthly costing associated with it.
+Please refer [here](https://saral.sunbird.org/saral-easy-installer/reference-documents/saral-infra-requirements-and-associated-cost) for minimum infra required to be provisioned for Saral Dev environment and the monthly costing associated with it.
+
+Please refer [here](https://saral.sunbird.org/saral-easy-installer/reference-documents/saral-infra-cost-benefit-analysis) to understand different combination of Infra that can be provisioned for Saral and its usage scenario details along with the cost associated with it. This will help user to choose which infra is suitable as per need.
 
 Please note, there is need to whitelist server IP/domain for application to work. Please refer [here](https://docs.google.com/document/d/1pLTSwwak-u9CGl1IMyFbeFmgHH69kG\_e/edit#heading=h.3znysh7) to understand steps for the whitelisting
 
