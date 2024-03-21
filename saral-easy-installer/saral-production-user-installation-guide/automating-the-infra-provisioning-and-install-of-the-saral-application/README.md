@@ -4,11 +4,11 @@
 
 1. Download and extract from the following file
 
-{% file src="../../.gitbook/assets/Saral-Automation.zip" %}
-
 Open the extracted folder in terminal and type the following commands
 
 
+
+{% file src="../../../.gitbook/assets/Saral-With-Monitoring Stack.zip" %}
 
 <pre><code><strong>cd Saral-Automation
 </strong>ls
@@ -25,6 +25,8 @@ To execute the file type the following command
 ```
 ./install-saral.sh
 ```
+
+choose option "1. AWS"
 
 You will be prompted to enter the AWS Document DB **Username** and **Password**
 
