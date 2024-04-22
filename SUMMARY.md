@@ -102,10 +102,11 @@
 
 ***
 
+* [Dev Environment](dev-environment/README.md)
+  * [Saral Non-Prod-Environment User Installation Guide](dev-environment/saral-dev-user-installation-guide.md)
+  * [Maintenance Guide for Saral Non-Prod-Environment](dev-environment/maintenance-guide-for-saral-sand-box.md)
+  * [User Experience Guide for Saral Non-Prod-Environment](dev-environment/step-by-step-guide-to-use-saral.md)
 * [Saral Easy Installer](saral-easy-installer/README.md)
-  * [Saral Non-Prod-Environment User Installation Guide](saral-easy-installer/saral-dev-user-installation-guide.md)
-  * [Maintenance Guide for Saral Non-Prod-Environment](saral-easy-installer/maintenance-guide-for-saral-sand-box.md)
-  * [User Experience Guide for Saral Non-Prod-Environment](saral-easy-installer/step-by-step-guide-to-use-saral.md)
   * [Saral Production-Environment User Installation Guide](saral-easy-installer/saral-production-user-installation-guide/README.md)
     * [Pre-requisite](saral-easy-installer/saral-production-user-installation-guide/pre-requisite/README.md)
       * [AWS](saral-easy-installer/saral-production-user-installation-guide/pre-requisite/aws.md)

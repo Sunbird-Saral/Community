@@ -4,7 +4,7 @@ description: >-
   to structured, digital formats.
 ---
 
-# Saral Dev-Environment User Installation Guide
+# Saral Non-Prod-Environment User Installation Guide
 
 Using Saral results in extensive savings in terms of time and effort, when information from physical sources (such as paper) needs to be digitised and stored in a structured manner for analysis.
 
@@ -20,7 +20,7 @@ Saral provides facility to pull varied analytical reports using Firebase Applica
 
 3\) Saral app supports pre-configured template layouts. User is advised to take print outs of the same for their use. Current application version supports Assessment and layout for the same can be found attached below.&#x20;
 
-{% file src=".gitbook/assets/Assesment sheet layout.pdf" %}
+{% file src="../.gitbook/assets/Assesment sheet layout.pdf" %}
 Saral Assessment-Sheet Layout
 {% endfile %}
 
@@ -123,7 +123,7 @@ To execute docker compose file, please execute below mention command in your VM 
 
 8\) Postman Collections
 
-{% file src=".gitbook/assets/saral-frontend.postman_collection.json" %}
+{% file src="../.gitbook/assets/saral-frontend.postman_collection.json" %}
 Postman Collections
 {% endfile %}
 
