@@ -8,15 +8,11 @@ Easy installer is built using the following technologies:-
 
 2> Helm
 
-3> AWS EKS (elastic kubernetes service) cluster&#x20;
-
-4> AWS Document DB
-
 
 
 #### Reference architecture
 
-Required AWS servicesto operate core Saral services :
+Required AWS services to operate core Saral services :
 
 * Amazon VPC
 * Amazon Document DB
