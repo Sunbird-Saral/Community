@@ -73,7 +73,7 @@
 * [Saral OCR Assets](https://github.com/Sunbird-Saral/react-native-saral-sdk/tree/develop/ml\_models)
 * [Firebase setup for Saral App Telemetry](use/firebase-setup-for-saral-app-telemetry.md)
 * [Firebase setup for TFLite model deployment](use/firebase-setup-for-tflite-model-deployment.md)
-* [Alternatives for MongoDB and firebase integration with saral](https://docs.google.com/document/d/1A7DGwLOSAOyze_zTQ5QgBAwaykNpT8LcWrCaNEwW24w/edit?usp=sharing)
+* [Alternatives for Saral components](saral-components-alternatives/saral-components-alternatives.md)
 
 ## ENGAGE
 
