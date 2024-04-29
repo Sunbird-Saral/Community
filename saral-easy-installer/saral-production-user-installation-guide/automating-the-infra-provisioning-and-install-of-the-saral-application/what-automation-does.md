@@ -17,3 +17,9 @@ You should have the entire Saral Infra setup on you AWS account Infra structure 
 6> Elastic IP
 
 7> AWS document DB
+
+
+
+The following is the reference architecture of the Infra provisioned by the installer
+
+<figure><img src="../../../.gitbook/assets/saral ref arch.png" alt=""><figcaption></figcaption></figure>
