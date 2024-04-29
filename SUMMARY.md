@@ -113,6 +113,7 @@
       * [AWS](saral-easy-installer/saral-production-user-installation-guide/pre-requisite/aws.md)
     * [Manual Installation for Prod](saral-easy-installer/saral-production-user-installation-guide/manual-installation-for-prod.md)
     * [Automating the Infra provisioning and install of the Saral application](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/README.md)
+      * [Prerequisites](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/aws.md)
       * [What automation does](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/what-automation-does.md)
       * [Saral Install guide](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/actual-steps-to-execute.md)
       * [Installing the Saral Application](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/install-saral-application.md)
