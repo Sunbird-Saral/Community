@@ -114,11 +114,10 @@
     * [Manual Installation for Prod](saral-easy-installer/saral-production-user-installation-guide/manual-installation-for-prod.md)
     * [Automating the Infra provisioning and install of the Saral application](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/README.md)
       * [What automation does](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/what-automation-does.md)
-      * [Actual steps to execute](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/actual-steps-to-execute.md)
+      * [Saral Install guide](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/actual-steps-to-execute.md)
       * [Install Saral Application](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/install-saral-application.md)
       * [Monitoring-Stack](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/monitoring-stack.md)
   * [Reference Documents](saral-easy-installer/reference-documents/README.md)
     * [SARAL Infra Requirements & Associated Cost](saral-easy-installer/reference-documents/saral-infra-requirements-and-associated-cost.md)
     * [Saral Infra Cost Benefit Analysis](saral-easy-installer/reference-documents/saral-infra-cost-benefit-analysis.md)
-
 * [Tool for Saral Easy Layout generation and Auto generate ROI json](saral-formROIzen-tool/saral-formROIzen-tool.md)
