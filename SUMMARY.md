@@ -109,8 +109,6 @@
   * [User Experience Guide for Saral Non-Prod-Environment](dev-environment/step-by-step-guide-to-use-saral.md)
 * [Saral Easy Installer](saral-easy-installer/README.md)
   * [Saral Production-Environment User Installation Guide](saral-easy-installer/saral-production-user-installation-guide/README.md)
-    * [Pre-requisite](saral-easy-installer/saral-production-user-installation-guide/pre-requisite/README.md)
-      * [AWS](saral-easy-installer/saral-production-user-installation-guide/pre-requisite/aws.md)
     * [Manual Installation for Prod](saral-easy-installer/saral-production-user-installation-guide/manual-installation-for-prod.md)
     * [Automating the Infra provisioning and install of the Saral application](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/README.md)
       * [Prerequisites](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/aws.md)
