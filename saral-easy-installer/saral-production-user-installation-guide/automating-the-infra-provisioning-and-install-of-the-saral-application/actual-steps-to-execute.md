@@ -34,9 +34,9 @@ To execute the file type the following command
 ./install-saral.sh
 ```
 
+```
 Choose option "1. AWS"
-
-
+```
 
 You will be prompted to enter the AWS Document DB **Username** and **Password**
 
