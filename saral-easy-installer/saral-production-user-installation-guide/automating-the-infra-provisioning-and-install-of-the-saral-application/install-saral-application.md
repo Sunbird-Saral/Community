@@ -1,8 +1,8 @@
-# Install Saral Application
+# Installing the Saral Application
 
 Once the entire Infrastructure is setup
 
-We need to update the application with the document db hostname, username, password and the ssl certificate arn.
+We need to update the application with the **"document db hostname", "username", "password" and the "ssl certificate arn".**
 
 1. Go to the following folder "Saral-Automation/Saral-EKS/helm/saral-backend-chart/"
 2. Fill the value.yml file with the following details
