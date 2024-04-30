@@ -1,10 +1,16 @@
-# Saral Install guide
+# Run installer
 
 Automating the Infra provisioning and install of the Saral application
 
 Download and extract from the following file
 
 {% file src="../../../.gitbook/assets/Saral-With-Monitoring Stack.zip" %}
+
+or go to following github link to download the folder
+
+```
+https://github.com/Sunbird-Saral/devops
+```
 
 Open the extracted folder in terminal and type the following commands
 
