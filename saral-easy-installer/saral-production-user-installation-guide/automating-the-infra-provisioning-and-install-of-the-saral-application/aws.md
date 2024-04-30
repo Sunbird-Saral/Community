@@ -155,5 +155,3 @@ AAAA AAAA AAAA AAAA
 uid           [ unknown] HashiCorp Security (HashiCorp Package Signing) <security+packaging@hashicorp.com>
 sub   rsa4096 XXXX-XX-XX [E]
 ```
-
-1. Once above completed pls refere to [here](./)
