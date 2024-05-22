@@ -15,20 +15,22 @@ layout:
     visible: true
 ---
 
-# User Experience Guide for Saral
+# User Experience Guide for Saral Non-Prod-Environment
 
 1\) Saral is a mobile application and can be download from Play Store (Saral-App). Alternatively User can download the App from the below mentioned link.
 
-{% embed url="https://drive.google.com/file/d/1Y4UuA8euplEbGYfsh1_PT8IGx_OSFZDW/view" %}
+{% embed url="https://drive.google.com/file/d/1vQVH5QRvkUqzeClcmb1d-Fw2iOf0kn36/view?usp=sharing" %}
 
 2\) Saral uses pre-defined template Layouts for scanning. Such templates should be available with user. User can find the supported sample mark-sheet/assessment template layouts attached below. User is advised to take print outs of the same. Avoid using photocopies as unclear photocopies are prone to error while scanning.
 
-{% file src=".gitbook/assets/Attendance-sheetLayout.pdf" %}
-Saral Attendance-Sheet Layout
+
+
+{% file src="../.gitbook/assets/Assesment sheet layout.pdf" %}
+Saral Assessment-Sheet Layout
 {% endfile %}
 
-{% file src=".gitbook/assets/Assesment sheet layout.pdf" %}
-Saral Assessment-Sheet Layout
+{% file src="../.gitbook/assets/Attendance-sheetLayout.pdf" %}
+Saral Attendance-Sheet Layout
 {% endfile %}
 
 Alternatively, latest published versions of all layouts will be available at below mentioned location.
