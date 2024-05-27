@@ -118,5 +118,6 @@
       * [Monitoring-Stack](saral-easy-installer/saral-production-user-installation-guide/automating-the-infra-provisioning-and-install-of-the-saral-application/monitoring-stack.md)
   * [Reference Documents](saral-easy-installer/reference-documents/README.md)
     * [SARAL Infra Requirements & Associated Cost](saral-easy-installer/reference-documents/saral-infra-requirements-and-associated-cost.md)
+    * [Copy of SARAL Infra Requirements & Associated Cost](saral-easy-installer/reference-documents/saral-infra-requirements-and-associated-cost-1.md)
     * [Saral Infra Cost Benefit Analysis](saral-easy-installer/reference-documents/saral-infra-cost-benefit-analysis.md)
 * [Tool for Saral Easy Layout generation and Auto generate ROI json](saral-formROIzen-tool/saral-formROIzen-tool.md)
