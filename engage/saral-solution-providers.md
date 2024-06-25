@@ -12,7 +12,9 @@ Contact : thillai.rajan@tarento.com
 
 [Tekdi Technologies Pvt. Ltd](https://www.tekdi.net)., Pune
 
-Contact : &#x20;
+Contact :  sales@tekditechnologies.com , +91 93378 29925
+
+
 
 
 
