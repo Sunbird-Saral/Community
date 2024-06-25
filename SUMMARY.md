@@ -99,6 +99,7 @@
   * [v1.6.1](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.6.1)
   * [v1.6.2](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.6.2)
   * [v1.7.0](https://github.com/Sunbird-Saral/Project-Saral/releases/tag/v1.7.0)
+* [Saral - Solution Providers](engage/saral-solution-providers.md)
 * [Discuss](https://github.com/Sunbird-Saral/Community/discussions)
 
 ***
