@@ -14,4 +14,12 @@ Saral v1.x works as an edge location solution to phygitize  data on physical lay
 
 [`Saral SDK`](engage/saral-sdk-source-code-repository.md)  can be used to build custom Android applications with OCR capabilities(OMR, Handwritten Digit recognition)`. Refer` [saral-app-architecture.md](learn/saral-app-architecture.md "mention") for more details about [`Saral SDK`](engage/saral-sdk-source-code-repository.md)
 
-&#x20;                                                ![](.gitbook/assets/SaralApp\_Login\_Screen.jpeg)
+
+
+Download the Saral poster below to get a brief overview of how Saral can make a difference:
+
+{% file src=".gitbook/assets/saral.pdf" %}
+
+
+
+&#x20;                                               &#x20;
