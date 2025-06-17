@@ -109,7 +109,7 @@ services:
       - JWT_SECRET=SARALDATA_NODE
 <strong>      - MONGODB_POOL_SIZE=50
 </strong>      - MIN_MONGODB_POOL_SIZE=30
-      - WHITELIST_DOMAINS=&#x3C;add domain name that u want the app to respond too>
+      - WHITELIST_DOMAINS=&#x3C;add your domain/subdomain name here(eg: https://your-domain-name.com)>
 
     ports:
       - "3005:3005"
