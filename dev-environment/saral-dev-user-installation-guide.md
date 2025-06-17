@@ -4,7 +4,7 @@ description: >-
   to structured, digital formats.
 ---
 
-# Saral Non-Prod-Environment User Installation Guide
+# Saral Installation Guide (Non-Prod)
 
 Using Saral results in extensive savings in terms of time and effort, when information from physical sources (such as paper) needs to be digitised and stored in a structured manner for analysis.
 
@@ -12,7 +12,7 @@ Using Saral results in extensive savings in terms of time and effort, when infor
 
 1\) Since, backend infra for Saral is hosted on AWS, user Must have a valid AWS account.
 
-2\) Saral is a mobile application and its APK can be generated from source code. Process for the same can be found [here](https://saral.sunbird.org/use/generating-apk-from-source-code). Provision has been made such that adopters can create their own configurations for Saral application. Refer [here](https://saral.sunbird.org/use/update-base\_url-apkurl-in-apk) and [here](https://saral.sunbird.org/use/generate-aab-app-bundle-from-source-code) to know about detail guide for the same.&#x20;
+2\) Saral is a mobile application and its APK can be generated from source code. Process for the same can be found [here](https://saral.sunbird.org/use/generating-apk-from-source-code). Provision has been made such that adopters can create their own configurations for Saral application. Refer [here](https://saral.sunbird.org/use/update-base_url-apkurl-in-apk) and [here](https://saral.sunbird.org/use/generate-aab-app-bundle-from-source-code) to know about detail guide for the same.&#x20;
 
 User can publish their own configured saral app on Google play sore. Please refer [here](https://saral.sunbird.org/use/google-play-store-app-publish-recommendations) to know process to set it up.
 
@@ -20,7 +20,7 @@ Saral provides facility to pull varied analytical reports using Firebase Applica
 
 3\) Saral app supports pre-configured template layouts. User is advised to take print outs of the same for their use. Current application version supports Assessment and layout for the same can be found attached below.&#x20;
 
-{% file src="../.gitbook/assets/Assesment sheet layout.pdf" %}
+{% file src="../.gitbook/assets/Assesment sheet layout (1).pdf" %}
 Saral Assessment-Sheet Layout
 {% endfile %}
 
@@ -97,8 +97,7 @@ docker-compose --version
 
 6\) Create a docker-compose.yml file and paste below code snippet in it. Please make sure to replace your MongoDB instance IP in the below code snippet.
 
-```
-version: '2.4'
+<pre><code>version: '2.4'
 services:
   sandbox:
     image: jonathanrogers/saral-backend:1.6.2
@@ -106,20 +105,21 @@ services:
     environment:
       - PROFILE=dev
       - PORT=3005
-      - MONGODB_URL=mongodb://<Insert your actual Mongo DB IP here>:27017/saralv1newdb
+      - MONGODB_URL=mongodb://&#x3C;Insert your actual Mongo DB IP here>:27017/saralv1newdb
       - JWT_SECRET=SARALDATA_NODE
-      - MONGODB_POOL_SIZE=50
-      - MIN_MONGODB_POOL_SIZE=30
+<strong>      - MONGODB_POOL_SIZE=50
+</strong>      - MIN_MONGODB_POOL_SIZE=30
+      - WHITELIST_DOMAINS=&#x3C;add domain name that u want the app to respond too>
 
     ports:
       - "3005:3005"
-```
+</code></pre>
 
 To execute docker compose file, please execute below mention command in your VM terminal
 
 [**`sudo docker compose up -d`**](#user-content-fn-1)[^1]
 
-7\) Use NGINX to setup Domain Name and SSL Certificate. Refer [here](https://docs.google.com/document/d/1Rz2nhyc\_8oy56fwVHTO18ZbBT2Tss-ii8SbvqeNFiEY/edit?usp=sharing) for installation guide.
+7\) Use NGINX to setup Domain Name and SSL Certificate. Refer [here](https://docs.google.com/document/d/1Rz2nhyc_8oy56fwVHTO18ZbBT2Tss-ii8SbvqeNFiEY/edit?usp=sharing) for installation guide.
 
 8\) Postman Collections
 
@@ -129,9 +129,9 @@ Postman Collections
 
 9\) Cloud Infra provisioning requirement and costing
 
-Please refer [here](https://docs.google.com/spreadsheets/d/1IrQqBEMG\_phASHvORvkQ8qRl30hndvj4yBsDCl6eoho/edit?usp=sharing) for minimum infra required to be provisioned for Saral sand box and the monthly costing associated with it.
+Please refer [here](https://docs.google.com/spreadsheets/d/1IrQqBEMG_phASHvORvkQ8qRl30hndvj4yBsDCl6eoho/edit?usp=sharing) for minimum infra required to be provisioned for Saral sand box and the monthly costing associated with it.
 
-Please note, there is need to whitelist server IP/domain for application to work. Please refer [here](https://docs.google.com/document/d/1pLTSwwak-u9CGl1IMyFbeFmgHH69kG\_e/edit#heading=h.3znysh7) to understand steps for the whitelisting
+Please note, there is need to whitelist server IP/domain for application to work. Please refer [here](https://docs.google.com/document/d/1pLTSwwak-u9CGl1IMyFbeFmgHH69kG_e/edit#heading=h.3znysh7) to understand steps for the whitelisting
 
 Once all above steps are completed, Saral will be ready to use.
 
