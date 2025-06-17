@@ -100,7 +100,7 @@ docker-compose --version
 <pre><code>version: '2.4'
 services:
   sandbox:
-    image: jonathanrogers/saral-backend:1.6.2
+    image: jonathanrogers/saral-backend:v1.7.0
     container_name: sandbox
     environment:
       - PROFILE=dev
